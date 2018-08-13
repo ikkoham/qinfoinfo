@@ -1,5 +1,7 @@
 sudo: true
 dist: trusty
+before_install:
+- sudo apt-get update
 install:
 - sudo apt-get --yes install hugo
 script:
