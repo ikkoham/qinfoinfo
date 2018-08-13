@@ -1,0 +1,18 @@
+html {
+  font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Avenir','Helvetica Neue','Helvetica','Arial',"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-size: 14px;
+}
+header {
+  background-color: #282B46;
+}
+header:after {
+  background: url(../images/ribbon.png) 0 0/100% no-repeat;
+}
+article > aside .menu .dd-item.active > div * {
+  font-weight: bold;
+  border-bottom: dotted 1px blue;
+}
+section strong {
+  font-weight: bolder;
+}
+

@@ -1,0 +1,44 @@
+[create-header-md]
+other = "Create a content/_header.md to customize this"
+
+[create-footer-md]
+other = "Create a content/_footer.md file to customize the footer content"
+
+[Search-placeholder]
+other = "検索..."
+
+[Clear-History]
+other = "履歴を削除"
+
+[Page]
+other = "ページ"
+
+[Next-Pages]
+other = "次のページ"
+
+[Previous-Pages]
+other = "前のページ"
+
+[pagination-on]
+other = "of"
+
+[Attachments-label]
+other = "Attachments"
+
+[title-404]
+other = "Error"
+
+[message-404]
+other = "Woops. Looks like this page doesn't exist."
+
+[Go-to-homepage]
+other = "Go to homepage"
+
+[Edit-this-page]
+other = "このページを編集する"
+
+[Expand-title]
+other = "Expand me..."
+
+[last-update-on]
+other = "最終更新"
