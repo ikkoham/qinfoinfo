@@ -1,11 +1,11 @@
 sudo: true
 dist: trusty
 before_install:
-- sudo apt-get update
 install:
-- sudo apt-get --yes install hugo
+- sudo apt-get --yes install snapd
+- sudo snap install hugo
 script:
-- hugo -v
+- /snap/bin/hugo -v
 deploy:
   provider: pages
   local-dir: public
