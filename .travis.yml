@@ -1,0 +1,20 @@
+sudo: true
+dist: trusty
+before_install:
+install:
+- sudo apt-get --yes install snapd
+- sudo snap install hugo
+script:
+- /snap/bin/hugo -v
+deploy:
+  provider: pages
+  local-dir: public
+  skip-cleanup: true
+  keep-history: true
+  github_token:
+    secure: BbD9ltrWH+dWhdtQaUB0jPqvwv3JEaDXEIJfO9Wgrbqm1AEP/p4iQUBDKFcyU2+oRLQ/AKlw2n8EVBpH97Ltpoiz941RHsbhHcYYacNGagI/7/ubjGOQ/GmXZyEKGXW8/Kff0aGvKvDTI6f9mOIdfP3Nbi8uvEjjOyzM7UMqnHyLGy9GfIcG5mAVP+HjcI3sbBzXUVvGCiRBlsy28uQ/86fExI8kQmHiD8SQvKe6PKVg4C0KlB/osd3uSXwAOjzwmc8AU1skGOBE9CQJ5pWZOFDZKk4ZkMSXxZbxkSpmsESRsqszTqVP//WuK2B4ci8DWBCtiZEWRI4SoM+H14nEYqg8z5c7urEKr/euPyb8qyQLH3fAfc42cEwICjaS/UXV0KEigH91u/RyJtqj7YLeNAEWQb6m7aHqEikufhA2gKz12CxTnZ/KM0xomnF3/ICrDfdJL4zBUe92kujejar+VaFgqlMure+1Q3D+W4PetEsCW5Rhcpy1t7WqTREKvhYfYGtgTQbcaKD0sRBI2Z8m1uK8twsOxzJbcw/Gpkr9WUitjQQ720tdFCADSi0XNmsW2Ta4um7LUdZL2uEPJrpZtpt9qQmu4O9T6BCG+8gQej9KSuUlVaYNB3xJdXZ3TGmRn2R6XKXXRO2iYO7JLKXvgzyDRU3+FQHD3NwhSHbl5Mc=
+  on:
+    branch: master
+notifications:
+  on_success: change
+  on_failure: always

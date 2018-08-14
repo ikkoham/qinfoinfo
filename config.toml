@@ -1,7 +1,7 @@
 baseURL = "/"
 
 languageCode = "ja"
-DefaultContentLanguage = "ja-jp"
+DefaultContentLanguage = "ja"
 title = "量子情報情報"
 theme = "docdock"
 pygmentsCodeFences = true
