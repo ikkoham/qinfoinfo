@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/domestic-conference/</loc>
+    <lastmod>2018-08-12T22:33:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/domestic-study/</loc>
+    <lastmod>2018-08-12T22:34:44+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/international-conference/</loc>
+    <lastmod>2018-08-13T21:30:15+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/lab/</loc>
+    <lastmod>2018-08-13T16:31:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/book/</loc>
+    <lastmod>2018-08-13T23:23:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/journal-site/</loc>
+    <lastmod>2018-08-13T23:19:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/</loc>
+    <lastmod>2018-08-13T23:12:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-08-12T22:14:53+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/_footer/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
