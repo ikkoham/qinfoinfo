@@ -1,7 +1,7 @@
 +++
 title = "国内勉強会"
 weight = 3
-date = 2018-08-12T22:34:44+09:00
+date = 2018-08-30T00:04:24+09:00
 +++
 
 研究会と勉強会の区別は主に研究者を対象としていて研究成果を共有し議論することを目的としているものが研究会、より広い人を対象として勉強を目的としているものを勉強会としていますが、明確な区別があるわけではなく微妙なものもあると思います。
@@ -46,20 +46,32 @@ date = 2018-08-12T22:34:44+09:00
   MDR株式会社 東京都文京区
 
 ## 9月
+- 09/05 （水） 18:30 〜 20:30 [Quantum Native Meetup #2](https://qunasys.connpass.com/event/99874/)
+  KERNEL HONGO 東京都 文京区
 - 09/06 （木） 18:30 〜 20:00 [VQEをもっと詳しく](https://qnn.connpass.com/event/94092/)
   MDR株式会社 東京都文京区
+- 09/12 （水） 19:00 〜 21:00 [量子コンピュータハッカソン by Team AI 9/12(水)](https://teamai.connpass.com/event/99851/)
+  Team AI Base 東京都渋谷区
 - 09/13 （木） 18:30 〜 20:00 [量子フーリエ変換](https://qnn.connpass.com/event/94105/)
   MDR株式会社 東京都文京区
+- 09/15 （土） 13:00 〜 19:00 [紙と鉛筆で学ぶ「量子コンピュータの基礎」無料リピート開催](https://quantum-basic.peatix.com/)
+  IBM 箱崎 東京都中央区
 - 09/20 （木） 18:30 〜 20:00 [量子アニーリング、AndrewLucas21のイジング、アニーリング概況](https://qnn.connpass.com/event/97205/)
   MDR株式会社 東京都文京区
+- 09/22 （土） 13:00 〜 21:00 [紙と鉛筆で学ぶ「量子コンピュータの基礎」無料リピート開催](https://quantum-basic.peatix.com/)
+  Google 六本木 東京都港区
 - 09/27 （木） 15:30 〜 16:30 [「量子化学における大規模/困難問題」](https://qnn.connpass.com/event/95115/)
   MDR株式会社 東京都文京区
 - 09/27 （木） 17:00 〜 18:00 [「量子化学における最近の注目論文」](https://qnn.connpass.com/event/95116/)
   MDR株式会社 東京都文京区
+- 09/29 （土） 13:00 〜 18:00 [Fukuoka.NET Conf 2018](https://fukuten.connpass.com/event/95744/)
+  Fukuoka Growth Next 福岡市
 
 ## 10月
 - 10/04(木) 18:30 〜 20:00 [Microsoft Q# Coding Contestを振り返る](https://qnn.connpass.com/event/97254/)
   MDR株式会社 東京都文京区
+- 10/06(土) 13:00 〜 19:00 [紙と鉛筆で学ぶ「量子コンピュータの基礎」無料リピート開催](https://quantum-basic.peatix.com/)
+  Microsoft 品川 東京都港区
 - 10/11(木) 18:30 〜 20:00 [量子ドットの物性物理](https://qnn.connpass.com/event/96413/)
   MDR株式会社 東京都文京区
 - 10/18(木) 18:30 〜 20:00 [量子ゲートの基礎の基礎をひととおり](https://qnn.connpass.com/event/97204/)
@@ -71,6 +83,10 @@ date = 2018-08-12T22:34:44+09:00
 - 11/01(木) 18:30 〜 20:00 [量子状態。純粋状態と混合状態](https://qnn.connpass.com/event/97206/)
   MDR株式会社 東京都文京区
 - 11/08(木) 18:30 〜 20:00 [量子化学シミュレーションにおける現状の量子コンピュータの実用化に向けて：問題分解手法](https://qnn.connpass.com/event/97759/)
+  MDR株式会社 東京都文京区
+- 11/15(木) 18:30 〜 20:00 [量子多体系シミュレーションはどこまで量子ゲートに実装できるのか](https://qnn.connpass.com/event/98437/)
+  MDR株式会社 東京都文京区
+- 11/22(木) 18:30 〜 20:00 [量子シミュレーションを目指して、量子ゲートのシミュレーションHPC実装！の検討](https://qnn.connpass.com/event/98438/)
   MDR株式会社 東京都文京区
 
 
