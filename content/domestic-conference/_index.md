@@ -2,7 +2,7 @@
 type="page"
 title = "国内研究会"
 weight = 2
-date = 2018-08-12T22:33:37+09:00
+date = 2018-08-30T00:23:13+09:00
 +++
 
 研究会と勉強会の区別は主に研究者を対象としていて研究成果を共有し議論することを目的としているものが研究会、より広い人を対象として勉強を目的としているものを勉強会としていますが、明確な区別があるわけではなく微妙なものもあると思います。
@@ -28,6 +28,9 @@ date = 2018-08-12T22:33:37+09:00
 - 9/13(木) [AQIS2018 Kyoto satellite workshop on quantum computing](http://www2.yukawa.kyoto-u.ac.jp/~aqis2018/index.php)
   京都大学 基礎物理学研究所
 
+### 10月
+- 10/6(土) 〜 10/7(日)[第8回QUATUO研究会](http://www.sceng.kochi-tech.ac.jp/koban/quatuo/doku.php?id=%E7%AC%AC8%E5%9B%9Equatuo%E7%A0%94%E7%A9%B6%E4%BC%9A)
+  高知工科大学 永国寺キャンパス
 ### 11月
 - 11/7(水) ～ 11/09(金) [高次元量子雑音の統計モデリング](http://www.kurims.kyoto-u.ac.jp/~kyodo/workshop-ja.html)
   京都大学 数理解析研究所
