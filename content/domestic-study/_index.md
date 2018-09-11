@@ -54,8 +54,12 @@ date = 2018-08-30T00:04:24+09:00
   Team AI Base 東京都渋谷区
 - 09/13 （木） 18:30 〜 20:00 [量子フーリエ変換](https://qnn.connpass.com/event/94105/)
   MDR株式会社 東京都文京区
+- 09/14 （金） 19:00 〜 21:00 [バイオインフォマティクス における量子コンピューターの利用](https://bioalgorithms.connpass.com/event/100901/)
+  アメリエフ株式会社 東京都港区
 - 09/15 （土） 13:00 〜 19:00 [紙と鉛筆で学ぶ「量子コンピュータの基礎」無料リピート開催](https://quantum-basic.peatix.com/)
   IBM 箱崎 東京都中央区
+- 09/17 （月） 19:00 〜 22:00 [ [輪読会]第1回 量子計算理論](https://osaka-dtc.connpass.com/event/101009/)
+  大阪分散コミュニティー 大阪府大阪市福島区
 - 09/20 （木） 18:30 〜 20:00 [量子アニーリング、AndrewLucas21のイジング、アニーリング概況](https://qnn.connpass.com/event/97205/)
   MDR株式会社 東京都文京区
 - 09/22 （土） 13:00 〜 21:00 [紙と鉛筆で学ぶ「量子コンピュータの基礎」無料リピート開催](https://quantum-basic.peatix.com/)
