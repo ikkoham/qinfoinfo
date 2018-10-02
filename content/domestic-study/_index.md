@@ -7,70 +7,6 @@ date = 2018-08-30T00:04:24+09:00
 研究会と勉強会の区別は主に研究者を対象としていて研究成果を共有し議論することを目的としているものが研究会、より広い人を対象として勉強を目的としているものを勉強会としていますが、明確な区別があるわけではなく微妙なものもあると思います。
 
 
-## 8月
-- 08/02 （木） 17:00 〜 18:00 [Cirq: An Open Source Framework for NISQ Algorithms](https://qnn.connpass.com/event/95198/)
-  MDR株式会社 東京都文京区
-- 08/02 （木） 18:30 〜 20:00 [量子ゲート誤り検出とパリティチェックとマッチングアルゴリズム](https://qnn.connpass.com/event/94087/)
-  MDR株式会社 東京都文京区
-- 08/06 （月） 19:00 〜 21:00 [量子コンピューターによる量子化学計算（基礎）Bravyi-Kitaev変換](https://openql.connpass.com/event/93330/)
-  [#OpenQL勉強会](https://twitter.com/search?q=%23OpenQL%E5%8B%89%E5%BC%B7%E4%BC%9A%20%23%E9%87%8F%E5%AD%90%E6%83%85%E5%A0%B1%20%23%E9%87%8F%E5%AD%90%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC)
-  新宿溝口クリニック＠新宿
-- 08/09 （木） 17:30 〜 18:20 [Jordan-Wigner変換](https://qnn.connpass.com/event/95622/)
-  MDR株式会社 東京都文京区
-- 08/09 （木） 18:30 〜 20:00 [Quantum Algorithm Zooの近似・シミュレーションアルゴリズムを見る](https://qnn.connpass.com/event/94089/)
-  MDR株式会社 東京都文京区
-- 08/10 （金） 19:00 〜 21:00 [|福岡 理学部> + |OpenQL> = 量子コンパイラ作る会](https://fukuoka-science.connpass.com/event/95819/)
-  株式会社Fusic 福岡市
-- 08/15 （水） 10:00 〜 18:00 [量子化学計算集中合宿１！OpenFermionを一日中触る](https://qnn.connpass.com/event/97771/)
-  MDR株式会社 東京都文京区
-- 08/16 （木） 10:00 〜 18:00 [量子化学計算集中合宿２！OpenFermion+Cirqを一日中触る](https://qnn.connpass.com/event/97772/)
-  MDR株式会社 東京都文京区
-- 08/16 （木） 19:00 〜 21:00 [「量子コンピュータ はじめの一歩」オフ会](https://inteface-meet-up.connpass.com/event/92819/)
-  CQ出版社 5F セミナールーム 東京都文京区
-- 08/20 （月） 19:00 〜 21:00 [量子コンピューターによる量子化学計算（Pythonハンズオン）VQEとOpenFermion](https://openql.connpass.com/event/89894/)
-  [#OpenQL勉強会](https://twitter.com/search?q=%23OpenQL%E5%8B%89%E5%BC%B7%E4%BC%9A%20%23%E9%87%8F%E5%AD%90%E6%83%85%E5%A0%B1%20%23%E9%87%8F%E5%AD%90%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC)
-  新宿溝口クリニック＠新宿
-- 08/23 （木） 15:30 〜 16:30 [「量子化学計算の概論」](https://qnn.connpass.com/event/94718/)
-  MDR株式会社 東京都文京区
-- 08/23 （木） 17:00 〜 18:00 [「ハートリーフォックと電子相関」](https://qnn.connpass.com/event/94717/)
-  MDR株式会社 東京都文京区
-- 08/23 （木） 18:30 〜 20:00 [OpenFermionをみる](https://qnn.connpass.com/event/94088/)
-  MDR株式会社 東京都文京区
-- 08/25 （土） 13:00 〜 17:00 [量子情報勉強会 |57>](https://connpass.com/event/94899/)
-   （株）ねこねこエンジニアリング 東京都千代田区
-- 08/28 （火） 14:00 〜 17:15 [IBM Research Experience Day - Day1 午後](https://ibm-research-experience.connpass.com/event/95081/)
-  BaseQ
-- 08/27 （月） 19:30 〜 21:00 [きしだなおき独演会「これからのコンピューティングの変化とこれからのプログラミング」](https://yurutto-it.connpass.com/event/95801/)
-  さくらインターネット　福岡オフィス
-- 08/30 （木） 18:30 〜 20:00 [量子ゲート誤り検出と表面符号（ビットフリップと位相フリップ）](https://qnn.connpass.com/event/94090/)
-  MDR株式会社 東京都文京区
-
-## 9月
-- 09/05 （水） 18:30 〜 20:30 [Quantum Native Meetup #2](https://qunasys.connpass.com/event/99874/)
-  KERNEL HONGO 東京都 文京区
-- 09/06 （木） 18:30 〜 20:00 [VQEをもっと詳しく](https://qnn.connpass.com/event/94092/)
-  MDR株式会社 東京都文京区
-- 09/12 （水） 19:00 〜 21:00 [量子コンピュータハッカソン by Team AI 9/12(水)](https://teamai.connpass.com/event/99851/)
-  Team AI Base 東京都渋谷区
-- 09/13 （木） 18:30 〜 20:00 [量子フーリエ変換](https://qnn.connpass.com/event/94105/)
-  MDR株式会社 東京都文京区
-- 09/14 （金） 19:00 〜 21:00 [バイオインフォマティクス における量子コンピューターの利用](https://bioalgorithms.connpass.com/event/100901/)
-  アメリエフ株式会社 東京都港区
-- 09/15 （土） 13:00 〜 19:00 [紙と鉛筆で学ぶ「量子コンピュータの基礎」無料リピート開催](https://quantum-basic.peatix.com/)
-  IBM 箱崎 東京都中央区
-- 09/17 （月） 19:00 〜 22:00 [ [輪読会]第1回 量子計算理論](https://osaka-dtc.connpass.com/event/101009/)
-  大阪分散コミュニティー 大阪府大阪市福島区
-- 09/20 （木） 18:30 〜 20:00 [量子アニーリング、AndrewLucas21のイジング、アニーリング概況](https://qnn.connpass.com/event/97205/)
-  MDR株式会社 東京都文京区
-- 09/22 （土） 13:00 〜 21:00 [紙と鉛筆で学ぶ「量子コンピュータの基礎」無料リピート開催](https://quantum-basic.peatix.com/)
-  Google 六本木 東京都港区
-- 09/27 （木） 15:30 〜 16:30 [「量子化学における大規模/困難問題」](https://qnn.connpass.com/event/95115/)
-  MDR株式会社 東京都文京区
-- 09/27 （木） 17:00 〜 18:00 [「量子化学における最近の注目論文」](https://qnn.connpass.com/event/95116/)
-  MDR株式会社 東京都文京区
-- 09/29 （土） 13:00 〜 18:00 [Fukuoka.NET Conf 2018](https://fukuten.connpass.com/event/95744/)
-  Fukuoka Growth Next 福岡市
-
 ## 10月
 - 10/04(木) 18:30 〜 20:00 [Microsoft Q# Coding Contestを振り返る](https://qnn.connpass.com/event/97254/)
   MDR株式会社 東京都文京区
@@ -80,17 +16,29 @@ date = 2018-08-30T00:04:24+09:00
   MDR株式会社 東京都文京区
 - 10/18(木) 18:30 〜 20:00 [量子ゲートの基礎の基礎をひととおり](https://qnn.connpass.com/event/97204/)
   MDR株式会社 東京都文京区
+- 10/22(月) 19:00 〜 21:00 [量子計算・量子コンピューター概論（初学者対象）](https://openql.connpass.com/event/102640/)
+  [#OpenQL勉強会](https://twitter.com/search?q=%23OpenQL%E5%8B%89%E5%BC%B7%E4%BC%9A%20%23%E9%87%8F%E5%AD%90%E6%83%85%E5%A0%B1%20%23%E9%87%8F%E5%AD%90%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC) Repro株式会社＠東京都渋谷区
 - 10/25(木) 18:30 〜 20:00 [XANADUの光量子チップとサービスをみる](https://qnn.connpass.com/event/97255/)
   MDR株式会社 東京都文京区
 
 ## 11月
 - 11/01(木) 18:30 〜 20:00 [量子状態。純粋状態と混合状態](https://qnn.connpass.com/event/97206/)
   MDR株式会社 東京都文京区
+- 11/05(月) 19:00 〜 21:00 [量子コンピューティングのための圏論入門](https://openql.connpass.com/event/103059/)
+  [#OpenQL勉強会](https://twitter.com/search?q=%23OpenQL%E5%8B%89%E5%BC%B7%E4%BC%9A%20%23%E9%87%8F%E5%AD%90%E6%83%85%E5%A0%B1%20%23%E9%87%8F%E5%AD%90%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC) Repro株式会社＠東京都渋谷区
 - 11/08(木) 18:30 〜 20:00 [量子化学シミュレーションにおける現状の量子コンピュータの実用化に向けて：問題分解手法](https://qnn.connpass.com/event/97759/)
   MDR株式会社 東京都文京区
 - 11/15(木) 18:30 〜 20:00 [量子多体系シミュレーションはどこまで量子ゲートに実装できるのか](https://qnn.connpass.com/event/98437/)
   MDR株式会社 東京都文京区
 - 11/22(木) 18:30 〜 20:00 [量子シミュレーションを目指して、量子ゲートのシミュレーションHPC実装！の検討](https://qnn.connpass.com/event/98438/)
+  MDR株式会社 東京都文京区
+- 11/29(木) 18:30 〜 20:00 [Rustで量子コンピュータゲートシミュレータ](https://qnn.connpass.com/event/99898/)
+  MDR株式会社 東京都文京区
+
+## 12月
+- 12/06(木) 18:30 〜 19:30 [D-Wave量子コンピュータでノーベル賞研究の再現論文。量子シミュレーション。](https://qnn.connpass.com/event/99899/)
+  MDR株式会社 東京都文京区
+- 12/20(木) 18:30 〜 19:30 [スパコンと量子コンピュータシミュレーション](https://qnn.connpass.com/event/99910/)
   MDR株式会社 東京都文京区
 
 
@@ -192,3 +140,67 @@ date = 2018-08-30T00:04:24+09:00
   MDR株式会社 東京都文京区
 - 07/30(月) 18:00 〜 20:30 [Quantum Native Meetup #1](https://qunasys.connpass.com/event/95838/)
   KERNEL HONGO 東京都 文京区
+
+## 8月
+- 08/02 （木） 17:00 〜 18:00 [Cirq: An Open Source Framework for NISQ Algorithms](https://qnn.connpass.com/event/95198/)
+  MDR株式会社 東京都文京区
+- 08/02 （木） 18:30 〜 20:00 [量子ゲート誤り検出とパリティチェックとマッチングアルゴリズム](https://qnn.connpass.com/event/94087/)
+  MDR株式会社 東京都文京区
+- 08/06 （月） 19:00 〜 21:00 [量子コンピューターによる量子化学計算（基礎）Bravyi-Kitaev変換](https://openql.connpass.com/event/93330/)
+  [#OpenQL勉強会](https://twitter.com/search?q=%23OpenQL%E5%8B%89%E5%BC%B7%E4%BC%9A%20%23%E9%87%8F%E5%AD%90%E6%83%85%E5%A0%B1%20%23%E9%87%8F%E5%AD%90%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC)
+  新宿溝口クリニック＠新宿
+- 08/09 （木） 17:30 〜 18:20 [Jordan-Wigner変換](https://qnn.connpass.com/event/95622/)
+  MDR株式会社 東京都文京区
+- 08/09 （木） 18:30 〜 20:00 [Quantum Algorithm Zooの近似・シミュレーションアルゴリズムを見る](https://qnn.connpass.com/event/94089/)
+  MDR株式会社 東京都文京区
+- 08/10 （金） 19:00 〜 21:00 [|福岡 理学部> + |OpenQL> = 量子コンパイラ作る会](https://fukuoka-science.connpass.com/event/95819/)
+  株式会社Fusic 福岡市
+- 08/15 （水） 10:00 〜 18:00 [量子化学計算集中合宿１！OpenFermionを一日中触る](https://qnn.connpass.com/event/97771/)
+  MDR株式会社 東京都文京区
+- 08/16 （木） 10:00 〜 18:00 [量子化学計算集中合宿２！OpenFermion+Cirqを一日中触る](https://qnn.connpass.com/event/97772/)
+  MDR株式会社 東京都文京区
+- 08/16 （木） 19:00 〜 21:00 [「量子コンピュータ はじめの一歩」オフ会](https://inteface-meet-up.connpass.com/event/92819/)
+  CQ出版社 5F セミナールーム 東京都文京区
+- 08/20 （月） 19:00 〜 21:00 [量子コンピューターによる量子化学計算（Pythonハンズオン）VQEとOpenFermion](https://openql.connpass.com/event/89894/)
+  [#OpenQL勉強会](https://twitter.com/search?q=%23OpenQL%E5%8B%89%E5%BC%B7%E4%BC%9A%20%23%E9%87%8F%E5%AD%90%E6%83%85%E5%A0%B1%20%23%E9%87%8F%E5%AD%90%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC)
+  新宿溝口クリニック＠新宿
+- 08/23 （木） 15:30 〜 16:30 [「量子化学計算の概論」](https://qnn.connpass.com/event/94718/)
+  MDR株式会社 東京都文京区
+- 08/23 （木） 17:00 〜 18:00 [「ハートリーフォックと電子相関」](https://qnn.connpass.com/event/94717/)
+  MDR株式会社 東京都文京区
+- 08/23 （木） 18:30 〜 20:00 [OpenFermionをみる](https://qnn.connpass.com/event/94088/)
+  MDR株式会社 東京都文京区
+- 08/25 （土） 13:00 〜 17:00 [量子情報勉強会 |57>](https://connpass.com/event/94899/)
+   （株）ねこねこエンジニアリング 東京都千代田区
+- 08/28 （火） 14:00 〜 17:15 [IBM Research Experience Day - Day1 午後](https://ibm-research-experience.connpass.com/event/95081/)
+  BaseQ
+- 08/27 （月） 19:30 〜 21:00 [きしだなおき独演会「これからのコンピューティングの変化とこれからのプログラミング」](https://yurutto-it.connpass.com/event/95801/)
+  さくらインターネット　福岡オフィス
+- 08/30 （木） 18:30 〜 20:00 [量子ゲート誤り検出と表面符号（ビットフリップと位相フリップ）](https://qnn.connpass.com/event/94090/)
+  MDR株式会社 東京都文京区
+
+## 9月
+- 09/05 （水） 18:30 〜 20:30 [Quantum Native Meetup #2](https://qunasys.connpass.com/event/99874/)
+  KERNEL HONGO 東京都 文京区
+- 09/06 （木） 18:30 〜 20:00 [VQEをもっと詳しく](https://qnn.connpass.com/event/94092/)
+  MDR株式会社 東京都文京区
+- 09/12 （水） 19:00 〜 21:00 [量子コンピュータハッカソン by Team AI 9/12(水)](https://teamai.connpass.com/event/99851/)
+  Team AI Base 東京都渋谷区
+- 09/13 （木） 18:30 〜 20:00 [量子フーリエ変換](https://qnn.connpass.com/event/94105/)
+  MDR株式会社 東京都文京区
+- 09/14 （金） 19:00 〜 21:00 [バイオインフォマティクス における量子コンピューターの利用](https://bioalgorithms.connpass.com/event/100901/)
+  アメリエフ株式会社 東京都港区
+- 09/15 （土） 13:00 〜 19:00 [紙と鉛筆で学ぶ「量子コンピュータの基礎」無料リピート開催](https://quantum-basic.peatix.com/)
+  IBM 箱崎 東京都中央区
+- 09/17 （月） 19:00 〜 22:00 [ [輪読会]第1回 量子計算理論](https://osaka-dtc.connpass.com/event/101009/)
+  大阪分散コミュニティー 大阪府大阪市福島区
+- 09/20 （木） 18:30 〜 20:00 [量子アニーリング、AndrewLucas21のイジング、アニーリング概況](https://qnn.connpass.com/event/97205/)
+  MDR株式会社 東京都文京区
+- 09/22 （土） 13:00 〜 21:00 [紙と鉛筆で学ぶ「量子コンピュータの基礎」無料リピート開催](https://quantum-basic.peatix.com/)
+  Google 六本木 東京都港区
+- 09/27 （木） 15:30 〜 16:30 [「量子化学における大規模/困難問題」](https://qnn.connpass.com/event/95115/)
+  MDR株式会社 東京都文京区
+- 09/27 （木） 17:00 〜 18:00 [「量子化学における最近の注目論文」](https://qnn.connpass.com/event/95116/)
+  MDR株式会社 東京都文京区
+- 09/29 （土） 13:00 〜 18:00 [Fukuoka.NET Conf 2018](https://fukuten.connpass.com/event/95744/)
+  Fukuoka Growth Next 福岡市
