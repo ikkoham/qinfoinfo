@@ -35,6 +35,10 @@ date = 2018-08-30T00:23:13+09:00
 - 11/7(水) ～ 11/09(金) [高次元量子雑音の統計モデリング](http://www.kurims.kyoto-u.ac.jp/~kyodo/workshop-ja.html)
   京都大学 数理解析研究所
 
+### 12月
+- 12/6(木) [第25回 量子情報関西 Student Chapter](https://sites.google.com/site/qikansai/25meeting)
+  大阪大学 豊中キャンパス
+
 ## 2019年
 
 ### 5月
