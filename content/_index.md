@@ -7,6 +7,18 @@ date: 2018-08-12T22:14:53+09:00
 
 このサイトは量子情報に関する全ての情報を収集・整理するサイトです。
 
-本サイトはGitHubで管理しています。
-編集を手伝ってくれる方は是非編集して[Pull Request](https://github.com/ikkoham/qinfoinfo/pulls)を送ってください。
-また、[Issue](https://github.com/ikkoham/qinfoinfo/issues)立ても歓迎します。
+## 運営方針
+
+このサイトは量子情報に関する全ての情報を収集し整理することを目標としています。
+
+## 参加方法
+
+本サイトは複数人の手で書かれており、GitHubで管理されています。
+あなたがこのプロジェクトを手伝ってくれるならば、我々は歓迎します。
+プロジェクトに参加する方法は
+
+- 編集して[Pull Request](https://github.com/ikkoham/qinfoinfo/pulls)を送る。
+- 問題点を発見して[Issue](https://github.com/ikkoham/qinfoinfo/issues)を立てる。
+
+といった方法があります。
+気軽に参加してください。
