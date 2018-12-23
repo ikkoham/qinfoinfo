@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>量子情報情報について on 量子情報情報</title>
-    <link>/</link>
-    <description>Recent content in 量子情報情報について on 量子情報情報</description>
+    <title>OSS on 量子情報情報</title>
+    <link>/oss/</link>
+    <description>Recent content in OSS on 量子情報情報</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Aug 2018 22:14:53 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 23:34:23 +0900</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/oss/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,15 +27,6 @@ D-Wave Systems 世界で最初の商用量子アニーリングマシンを開�
 Google 72量子ビットの量子プロセッサ「Bristlecone」を開発中のGoogleですが、OSSもリリースしています。 ここで紹介するものは　Googleの公式のプロダクトではないので、Googleと書くのも微妙な気がしますが、quantumlibとかいてもピンと来ないので、Googleにしておきます。
 Cirqはアドベントカレンダーの10日目で紹介されています。OpenFermionは量子化学で出てくるフェルミオンを量子コンピュータで扱うためのライブラリです。 OpenFermion-CirqではOpenFermionで生成したハミルトニアンをCirq向けにコンパイルすることが出来ます。
    名前 ライセンス プログラミング言語 Contributor スター フォーク     Cirq Apache-2.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/_footer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/_footer/</guid>
-      <description></description>
     </item>
     
   </channel>

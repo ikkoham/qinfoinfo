@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>量子情報情報</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="revised" content="2018-12-23T14:52:37 UTC">
+<title>量子コンピュータのオープンソース・ソフトウェア :: 量子情報情報</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/jquery-2.x.min.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+<link rel="stylesheet" href="/css/custom.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119897491-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119897491-2');
+</script>
+
+
+    
+  </head>
+  <body data-url="/oss/advent2018/">
+    
+      <header>
+  <div class="logo">
+    
+	
+  
+    <a class="baselink" href="/">量子情報情報</a>
+  
+
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="https://github.com/ikkoham/qinfoinfo"  rel="noopener">
+                  <i class='fa fa-github'></i> <label>Github repo</label>
+                </a>
+            </li>
+    </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+          <li data-nav-id="/" class="dd-item">
+          <a href="/">
+            <i class="fa fa-fw fa-home"></i>
+          </a>
+          </li>
+    <li data-nav-id="/domestic-conference/" class="dd-item
+        ">
+      <div>
+      <a href="/domestic-conference/">国内研究会</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/domestic-study/" class="dd-item
+        ">
+      <div>
+      <a href="/domestic-study/">国内勉強会</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/international-conference/" class="dd-item
+        ">
+      <div>
+      <a href="/international-conference/">国際会議</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/lab/" class="dd-item
+        ">
+      <div>
+      <a href="/lab/">研究室・研究機関</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/book/" class="dd-item
+        ">
+      <div>
+      <a href="/book/">本</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/oss/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/oss/">OSS</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/oss/advent2018/" class="dd-item active">
+        <div>
+          <a href="/oss/advent2018/">
+            量子コンピュータのオープンソース・ソフトウェア
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/journal-site/" class="dd-item
+        ">
+      <div>
+      <a href="/journal-site/">論文サイト</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/news/" class="dd-item
+        ">
+      <div>
+      <a href="/news/">ニュースサイト</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+
+
+
+
+    </ul>
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    
+    <div class="nav-select">
+      <center>Navigation : 
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="/domestic-conference/" >
+   国内研究会</option>
+    <option value="/domestic-study/" >
+   国内勉強会</option>
+    <option value="/international-conference/" >
+   国際会議</option>
+    <option value="/lab/" >
+   研究室・研究機関</option>
+    <option value="/book/" >
+   本</option>
+    <option value="/oss/" >
+   OSS</option> 
+      <option value="/oss/advent2018/"  selected>- 量子コンピュータのオープンソース・ソフトウェア</option>
+  
+    <option value="/journal-site/" >
+   論文サイト</option>
+    <option value="/news/" >
+   ニュースサイト</option>
+
+
+
+        </select>
+      </center>
+    </div>
+      <div>
+        <div class="searchbox">
+          <input data-search-input id="search-by" type="text" placeholder="検索...">
+        </div>
+        <script type="text/javascript" src="/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/js/auto-complete.js"></script>
+        <link href="/css/auto-complete.css" rel="stylesheet">
+        <script type="text/javascript">
+          
+              var baseurl = "\/";
+          
+        </script>
+        <script type="text/javascript" src="/js/search.js"></script>
+      </div>
+    
+
+    <h1>量子コンピュータのオープンソース・ソフトウェア</h1>
+    
+    
+    
+    
+
+<h2 id="まえがき">まえがき</h2>
+
+<p><a href="https://qiita.com/advent-calendar/2018/quantum">量子コンピュータ Advent Calendar 2018</a>の23日目の記事です。</p>
+
+<p>OpenQLのなかの人の一人として記事を書いています。この記事を執筆する機会をいただけて感謝しております。</p>
+
+<p>2014年から始まる第二次量子コンピュータブームでは、オープンソース・ソフトウェア(OSS)がたくさん生み出されています。この記事では、量子コンピュータに関するオープンソース・ソフトウェアがあるのかをまとめたいと思います。
+このアドベントカレンダーの<a href="https://qiita.com/gyu-don/items/52e5341e459535045127#%E9%87%8F%E5%AD%90%E3%82%A2%E3%83%8B%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E6%96%B9%E5%BC%8F%E3%81%A8%E9%87%8F%E5%AD%90%E3%82%B2%E3%83%BC%E3%83%88%E6%96%B9%E5%BC%8F">1日目の記事</a>にある通り、量子コンピュータには汎用的な「ゲート型(と言われるがゲート操作をするとは限らない)」量子コンピュータと、イジングモデルに特化した「量子アニーリング型」と呼ばれているものがあります。この記事では色々と煩わしい「量子コンピュータ」の定義問題には立ち入らず、すべての量子コンピュータに関わるOSSをまとめようと思います。</p>
+
+<p>OSSというのは、<a href="https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2">Wikipedia</a>的に言うと、「利用者の目的を問わずソースコードを使用、調査、再利用、修正、拡張、再配布が可能なソフトウェアの総称である」です。量子コンピュータにおいても、多くのOSSがあります。これらはGitHub上で公開されていることが多いので、スターの数やコントリビュータの数など多くの情報がわかります。OSSにおいてはライセンスも重要です。現在どんなOSSがあって、それぞれどんな感じなのか、個人的にも気になるのでまとめてみました。著者の不理解により、誤りなどがあるかもしれませんが、その場合は編集リクエストをお送りいただければ幸いです。</p>
+
+<p>この記事の情報は2018年12月23日のものとします。
+順番はアルファベット順です。</p>
+
+<h2 id="d-wave-systems">D-Wave Systems</h2>
+
+<p>世界で最初の商用量子アニーリングマシンを開発した、カナダのD-WaveのOSSを見ていきます。
+本アドベントカレンダーにおいても、<a href="https://qiita.com/abenben/items/1ccc51cd5d9ba18b30c1">9日目</a>にはOceanを使った足し算、Hybridについては　<a href="http://blog.mdrft.com/post/814">１１日目</a>、<a href="https://qiita.com/piyo7/items/5e2cf2a92ddbe016572b">13日目</a>にはピクロス(お絵かきロジック)を解いています。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left"><a href="https://github.com/dwavesystems/dwave-ocean-sdk">dwave-ocean-sdk</a></td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">4</td>
+<td align="right">67</td>
+<td align="right">12</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/dwavesystems/dwave-hybrid">D-Wave Hybrid</a></td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">3</td>
+<td align="right">15</td>
+<td align="right">10</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/dwavesystems/qbsolv">Qbsolv</a></td>
+<td align="center">Apache-2.0</td>
+<td align="center">C++</td>
+<td align="right">20</td>
+<td align="right">833</td>
+<td align="right">192</td>
+</tr>
+</tbody>
+</table>
+
+<p>正直に言って、D-Waveを使用したことがないので、各ライブラリの位置付けがいまいちわからないです。どなたか詳細を加筆して編集リクエストをいただけると嬉しいです。</p>
+
+<h2 id="google">Google</h2>
+
+<p>72量子ビットの量子プロセッサ「Bristlecone」を開発中のGoogleですが、OSSもリリースしています。
+ここで紹介するものは　Googleの公式のプロダクトではないので、Googleと書くのも微妙な気がしますが、quantumlibとかいてもピンと来ないので、Googleにしておきます。</p>
+
+<p><a href="https://github.com/quantumlib/Cirq">Cirq</a>はアドベントカレンダーの<a href="https://qiita.com/s_zh/items/bb5c14d21f4dcbcf5426">10日目</a>で紹介されています。<a href="https://github.com/quantumlib/OpenFermion">OpenFermion</a>は量子化学で出てくるフェルミオンを量子コンピュータで扱うためのライブラリです。
+<a href="https://github.com/quantumlib/OpenFermion-Cirq">OpenFermion-Cirq</a>ではOpenFermionで生成したハミルトニアンをCirq向けにコンパイルすることが出来ます。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Cirq</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">35</td>
+<td align="right">1272</td>
+<td align="right">185</td>
+</tr>
+
+<tr>
+<td align="left">OpenFermion</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">29</td>
+<td align="right">682</td>
+<td align="right">160</td>
+</tr>
+
+<tr>
+<td align="left">OpenFermion-Cirq</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">8</td>
+<td align="right">144</td>
+<td align="right">27</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="ibm">IBM</h2>
+
+<p>クラウド上の量子コンピュータを公開しているIBMは多くのOSSをリリースしています。Quantum Information Science KitことQiskitは<a href="https://medium.com/qiskit/qiskit-and-its-fundamental-elements-bcd7ead80492">4つの要素</a>に分かれます(現在リリースされているのは3つです。)</p>
+
+<p>Qiskit TerraはQiskitの基礎を担うもので、量子回路をコンパイルしたり、量子回路や計算結果を可視化したりする機能があります。Qiskit Aquaは応用向けのライブラリで量子化学・最適化・機械学習をターゲットにしています。Qiskit Aerはつい先日リリースされたばかりのライブラリで、量子計算の高速なシミュレータです。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Qiskit Terra</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">75</td>
+<td align="right">2275</td>
+<td align="right">685</td>
+</tr>
+
+<tr>
+<td align="left">Qiskit Aqua</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">20</td>
+<td align="right">130</td>
+<td align="right">63</td>
+</tr>
+
+<tr>
+<td align="left">Qiskit Aer</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python, C++</td>
+<td align="right">5</td>
+<td align="right">13</td>
+<td align="right">10</td>
+</tr>
+</tbody>
+</table>
+
+<p>その他にも、<a href="https://github.com/Qiskit/qiskit-tutorials">Qiskit Tutorials</a>というチュートリアルがあります。Qiskit Tutorialsについては、このアドベントカレンダーの<a href="https://nbviewer.jupyter.org/github/ikkoham/qinfo.tech/blob/master/public/notebook/qiskit2018.ipynb">5日目の記事</a>で紹介されています。
+また、<a href="https://github.com/Qiskit/qiskit-js">JavaScript</a>や<a href="https://github.com/Qiskit/qiskit-swift">Swift</a>向けのライブラリや<a href="https://github.com/Qiskit/qiskit-vscode">VSCode用のExtension</a>もあるようです。</p>
+
+<h2 id="mdr">MDR</h2>
+
+<p>MDRは量子コンピュータの研究・開発をしている企業で、<a href="https://mdrft.com/2018/12/13/qubit/">磁束量子ビット</a>を作ったりしています。
+ゲート型もアニーリング型も両方やっている会社で、OSSも両方に対応しているものがあります。</p>
+
+<p><a href="https://mdrft.com/blueqat/">Blueqat</a>は量子回路のシミュレータです。
+最近流行りのVQE(Variational Quantum Eigensolver)というアルゴリズムにも対応しているようです。
+<a href="https://mdrft.com/wildqat/">Wildqat</a>は量子アニーリング・量子イジング型向けのライブラリです。
+アドベントカレンダーの<a href="https://qiita.com/s_zh/items/bb5c14d21f4dcbcf5426">19日目</a>ではWildqatを用いて、ビンパッキング問題を解いています。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Blueqat</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">4</td>
+<td align="right">9</td>
+<td align="right">2</td>
+</tr>
+
+<tr>
+<td align="left">Wildqat</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">7</td>
+<td align="right">20</td>
+<td align="right">8</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="microsoft">Microsoft</h2>
+
+<p>Q#はとても人気があり、このアドベントカレンダーでも何度か目にする機会がありました。
+<a href="https://tech.tanaka733.net/entry/2018/12/running-qsharp-in-ibmq">3日目</a>では「Q#からIBM Qを操作する」方法について取り上げられていますし、<a href="https://qiita.com/stwhabout/items/04105d054b739914d478">4日目</a>ではQ#を学ぶことが出来る問題集であるQuantum Katasが解説されています。</p>
+
+<p>しかしながら、Q#はOSSではありません。</p>
+
+<p>その<a href="https://github.com/Microsoft/QuantumLibraries">ライブラリ</a>と<a href="https://github.com/Microsoft/Quantum">例</a>はOSSになっています。また、問題集である<a href="https://github.com/Microsoft/QuantumKatas">Quantum Katas</a>もOSSです。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Quantum Development Kit Samples</td>
+<td align="center">MIT</td>
+<td align="center">C#</td>
+<td align="right">12</td>
+<td align="right">1687</td>
+<td align="right">318</td>
+</tr>
+
+<tr>
+<td align="left">Microsoft Quantum Development Kit Libraries</td>
+<td align="center">MIT</td>
+<td align="center">C#</td>
+<td align="right">17</td>
+<td align="right">10</td>
+<td align="right">5</td>
+</tr>
+
+<tr>
+<td align="left">Quantum Katas</td>
+<td align="center">MIT</td>
+<td align="center">C#</td>
+<td align="right">22</td>
+<td align="right">1255</td>
+<td align="right">195</td>
+</tr>
+</tbody>
+</table>
+
+<p>ファイルの拡張子が、<code>.cs</code>なのでGitHub上でみてみるとC#になっています。</p>
+
+<p>#OpenQL</p>
+
+<p>OpenQL Projectは、量子コンピューターでオープンソースのライブラリを開発している人や、それを利用したい人が集まるコミュニティです。 勉強会を開催したり、Slack上で情報交換をしたりしています。</p>
+
+<p><a href="https://github.com/openql-org/quantpy/">QuantPy</a>は、フロントエンドに SymPy の数式や量子計算の表現を利用できるようにして、量子計算を行うバックエンドに各種の量子回路シミュレータが利用できるようにした量子回路モデルのシミュレータです。バックエンドには、QuantPy が標準で提供している python実装のシミュレータのほかに、プラグインを追加することで様々なバックエンドを使えるような設計をとっています。IBMの Qiskit（今はquantpyに内包）、cupy 対応された GPU版（quantpycupyパッケージ）、C言語実装版（quantpycythonパッケージ）があります。バックエンドとして、Cirq、Rigetti、Qulacs、Blueqat などの各種シミュレータおよび実サービスの対応も計画されていますが、開発者が少なく、開発自体は盛んではありません。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">QuantPy</td>
+<td align="center">BSD 3-Clause</td>
+<td align="center">Python</td>
+<td align="right">1</td>
+<td align="right">5</td>
+<td align="right">8</td>
+</tr>
+</tbody>
+</table>
+
+<p>また、OpenQLでは、様々な言語で量子計算のライブラリ開発の取り組みを目標に掲げており、Elixir 実装の quantex、nodeJS 実装の quantjs、Julia 実装の quantjl、C/C++言語実装の libopenql、Haskell 実装の haskell-openql の開発者も募っています。これ以外の言語対応やライブラリの追加も、コミュニティ・メンバーの興味に応じて立ち上げていきます。</p>
+
+<h2 id="projectq">ProjectQ</h2>
+
+<p><a href="https://projectq.ch">ProjectQ</a>はETH Zurichの研究者によるプロジェクトです。</p>
+
+<p><a href="https://github.com/ProjectQ-Framework/ProjectQ">ProjectQ</a>では量子回路を作ったり、シミュレーションをしたりできます。
+また、IBM Quantum Experienceで実行することも出来ます。
+<a href="https://github.com/ProjectQ-Framework/FermiLib">FermiLib</a>はOpenFermionのフォーク元で、ProjectQ上で動くフェルミオンのシミュレーション用ライブラリです。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">ProjectQ</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">11</td>
+<td align="right">398</td>
+<td align="right">119</td>
+</tr>
+
+<tr>
+<td align="left">FermiLib</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">10</td>
+<td align="right">47</td>
+<td align="right">31</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="qunasys">QunaSys</h2>
+
+<p>QunaSysは日本の量子コンピュータ技術を研究・開発しているベンチャー企業です。
+OSSについては、<a href="http://qulacs.org/">Qulacs</a>という高速に量子回路のシミュレーションをすることが出来るライブラリを公開しています。
+GitHub上の他のライブラリとの比較をみると、確かに速いです。
+速さは正義ですね。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Qulacs</td>
+<td align="center">MIT</td>
+<td align="center">C++</td>
+<td align="right">6</td>
+<td align="right">15</td>
+<td align="right">13</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="qutip">QuTiP</h2>
+
+<p>Quantum Toolbox in Python、略して<a href="http://qutip.org/">QuTiP</a>はこれまで紹介したものとは少し異なりますが、数値計算向けのライブラリです。日本学術振興会も支援しています。
+アドベントカレンダー2の<a href="https://qiita.com/masaphys/items/38aeaee5313f81e15414">18日目</a>の記事で<a href="http://qutip.org/">QuTiP</a>を使用しています。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">QuTiP</td>
+<td align="center">3条項BSDライセンス</td>
+<td align="center">Python</td>
+<td align="right">44</td>
+<td align="right">543</td>
+<td align="right">229</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="rigetti">Rigetti</h2>
+
+<p>Rigettiはアメリカのスタートアップ企業で、IBMと同様に量子コンピュータをクラウドで公開しています。</p>
+
+<p><a href="https://github.com/rigetti/pyquil">pyQuil</a>はRigettiのクラウド量子コンピュータForestで実行するためのQuilを生成するためのPythonライブラリです。
+量子回路をコンパイルし、クラウドでの実機・シミュレータ両方による計算をサポートしています。
+<a href="https://github.com/rigetti/grove">Grove</a>は量子アルゴリズム用のライブラリです。
+量子フーリエ変換や位相推定などの基本的な量子アルゴリズムから、Variational　Quantum　Eigensolver (VQE)、Quantum Approximate Optimization Algorithm (QAOA)といったNISQ向けのアルゴリズムもサポートしています。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">pyQuil</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">54</td>
+<td align="right">684</td>
+<td align="right">184</td>
+</tr>
+
+<tr>
+<td align="left">Grove</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">25</td>
+<td align="right">227</td>
+<td align="right">79</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="xanadu">Xanadu</h2>
+
+<p>Xanaduは光を用いた量子
+コンピュータを作っているカナダの企業です。光を用いたアーキテクチャ向けのオープンソース・ソフトウェアを公開しています。
+連続量を用いた量子計算向けのライブラリは今回紹介する中ではこれだけです。</p>
+
+<p><a href="https://strawberryfields.readthedocs.io/">Strawberry Fields</a>は量子回路のデザイン・シミュレーションなどを行ないます。<code>tensorflow-gpu</code>を用いてGPUで計算することも出来ます。いずれは実機で計算することも可能になるようです。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">名前</th>
+<th align="center">ライセンス</th>
+<th align="center">プログラミング言語</th>
+<th align="right">Contributor</th>
+<th align="right">スター</th>
+<th align="right">フォーク</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Strawberry Fields</td>
+<td align="center">Apache-2.0</td>
+<td align="center">Python</td>
+<td align="right">7</td>
+<td align="right">200</td>
+<td align="right">31</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="あとがき">あとがき</h2>
+
+<p>ちょっと時間がなくて急いで書いてしまいました。後日加筆する予定です。
+取り上げてほしいOSSがあればコメントください。
+加筆・訂正したときには<a href="https://twitter.com/ikkoham">Twitter</a>で告知します。</p>
+
+
+    
+    
+        <div class="chevrons">
+    <div id="navigation">
+<a class="nav nav-prev" href="/oss/" title="OSS"> <i class="fa fa-chevron-left"></i><label>OSS</label></a>
+    <a class="nav nav-next" href="/journal-site/" title="論文サイト" style="margin-right: 0px;"><label>論文サイト</label><i class="fa fa-chevron-right"></i></a></div>
+  </div>
+
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+
+    
+
+  
+    <div class="date">
+        <i class='fa fa-calendar'></i> 最終更新 2018/12/23
+    </div>
+    
+
+    <div class="github-link">
+      <a href="https://github.com/ikkoham/qinfoinfo/edit/master/content/oss/advent2018.md" target="blank"><i class="fa fa-code-fork"></i>
+        このページを編集する</a>
+    </div>
+  </div>
+
+
+	<div>
+
+
+  
+    
+  
+
+
+
+	</div>
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>
