@@ -30,8 +30,6 @@ OSSというのは、[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%B
 
 正直に言って、D-Waveを使用したことがないので、各ライブラリの位置付けがいまいちわからないです。どなたか詳細を加筆して編集リクエストをいただけると嬉しいです。
 
-
-
 ## Google
 
 72量子ビットの量子プロセッサ「Bristlecone」を開発中のGoogleですが、OSSもリリースしています。
@@ -40,14 +38,11 @@ OSSというのは、[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%B
 [Cirq](https://github.com/quantumlib/Cirq)はアドベントカレンダーの[10日目](https://qiita.com/s_zh/items/bb5c14d21f4dcbcf5426)で紹介されています。[OpenFermion](https://github.com/quantumlib/OpenFermion)は量子化学で出てくるフェルミオンを量子コンピュータで扱うためのライブラリです。
 [OpenFermion-Cirq](https://github.com/quantumlib/OpenFermion-Cirq)ではOpenFermionで生成したハミルトニアンをCirq向けにコンパイルすることが出来ます。
 
-
-
 | 名前       |   ライセンス   |プログラミング言語 | Contributor |   スター   | フォーク |
 |:----------|:----------:|:------:|------:|------:|------:|
-| Cirq  | Apache-2.0 | Python |35|1272|185|
-| OpenFermion | Apache-2.0 | Python |29|682|160|
-| OpenFermion-Cirq| Apache-2.0 | Python |8|144|27|
-
+| [Cirq](https://github.com/quantumlib/Cirq) | Apache-2.0 | Python |35|1272|185|
+| [OpenFermion](https://github.com/quantumlib/OpenFermion) | Apache-2.0 | Python |29|682|160|
+| [OpenFermion-Cirq](https://github.com/quantumlib/OpenFermion-Cirq) | Apache-2.0 | Python |8|144|27|
 
 ## IBM
 
@@ -55,12 +50,11 @@ OSSというのは、[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%B
 
 Qiskit TerraはQiskitの基礎を担うもので、量子回路をコンパイルしたり、量子回路や計算結果を可視化したりする機能があります。Qiskit Aquaは応用向けのライブラリで量子化学・最適化・機械学習をターゲットにしています。Qiskit Aerはつい先日リリースされたばかりのライブラリで、量子計算の高速なシミュレータです。
 
-
 | 名前       |   ライセンス   |プログラミング言語 | Contributor |   スター   | フォーク |
 |:----------|:----------:|:------:|------:|------:|------:|
-| Qiskit Terra  | Apache-2.0 | Python |75|2275|685|
-| Qiskit Aqua   | Apache-2.0 | Python |20|130|63|
-| Qiskit Aer    | Apache-2.0 | Python, C++ |5|13|10|
+| [Qiskit Terra](https://github.com/Qiskit/qiskit-terra) | Apache-2.0 | Python |75|2276|686|
+| [Qiskit Aqua](https://github.com/Qiskit/qiskit-aqua) | Apache-2.0 | Python |20|130|63|
+| [Qiskit Aer](https://github.com/Qiskit/qiskit-aer) | Apache-2.0 | Python, C++ |5|13|10|
 
 その他にも、[Qiskit Tutorials](https://github.com/Qiskit/qiskit-tutorials)というチュートリアルがあります。Qiskit Tutorialsについては、このアドベントカレンダーの[5日目の記事](https://nbviewer.jupyter.org/github/ikkoham/qinfo.tech/blob/master/public/notebook/qiskit2018.ipynb)で紹介されています。
 また、[JavaScript](https://github.com/Qiskit/qiskit-js)や[Swift](https://github.com/Qiskit/qiskit-swift)向けのライブラリや[VSCode用のExtension](https://github.com/Qiskit/qiskit-vscode)もあるようです。
@@ -75,12 +69,10 @@ MDRは量子コンピュータの研究・開発をしている企業で、[磁�
 [Wildqat](https://mdrft.com/wildqat/)は量子アニーリング・量子イジング型向けのライブラリです。
 アドベントカレンダーの[19日目](https://qiita.com/s_zh/items/bb5c14d21f4dcbcf5426)ではWildqatを用いて、ビンパッキング問題を解いています。
 
-
 | 名前       |   ライセンス   |プログラミング言語 | Contributor |   スター   | フォーク |
 |:----------|:----------:|:------:|------:|------:|------:|
-| Blueqat | Apache-2.0 | Python |4|9|2|
-| Wildqat  | Apache-2.0 | Python |7|20|8|
-
+| [Blueqat](https://github.com/mdrft/Blueqat) | Apache-2.0 | Python |4|9|2|
+| [Wildqat](https://github.com/mdrft/Wildqat) | Apache-2.0 | Python |7|20|8|
 
 ## Microsoft
 
@@ -93,12 +85,11 @@ Q#はとても人気があり、このアドベントカレンダーでも何度
 
 | 名前       |   ライセンス   |プログラミング言語 | Contributor |   スター   | フォーク |
 |:----------|:----------:|:------:|------:|------:|------:|
-| Quantum Development Kit Samples  | MIT | C# |12|1687|318|
-| Microsoft Quantum Development Kit Libraries | MIT | C# |17|10|5|
-| Quantum Katas| MIT | C# |22|1255|195|
+| [Quantum Development Kit Samples](https://github.com/Microsoft/Quantum) | MIT | C# |12|1688|319|
+| [Microsoft Quantum Development Kit Libraries](https://github.com/Microsoft/QuantumLibraries) | MIT | C# |17|10|5|
+| [Quantum Katas](https://github.com/Microsoft/QuantumKatas) | MIT | C# |22|1257|195|
 
 ファイルの拡張子が、`.cs`なのでGitHub上でみてみるとC#になっています。
-
 
 ## OpenQL
 
@@ -106,10 +97,9 @@ OpenQL Projectは、量子コンピューターでオープンソースのライ
 
 [QuantPy](https://github.com/openql-org/quantpy/)は、フロントエンドに SymPy の数式や量子計算の表現を利用できるようにして、量子計算を行うバックエンドに各種の量子回路シミュレータが利用できるようにした量子回路モデルのシミュレータです。バックエンドには、QuantPy が標準で提供している python実装のシミュレータのほかに、プラグインを追加することで様々なバックエンドを使えるような設計をとっています。IBMの Qiskit（今はquantpyに内包）、cupy 対応された GPU版（quantpycupyパッケージ）、C言語実装版（quantpycythonパッケージ）があります。バックエンドとして、Cirq、Rigetti、Qulacs、Blueqat などの各種シミュレータおよび実サービスの対応も計画されていますが、開発者が少なく、開発自体は盛んではありません。
 
-
 | 名前       |   ライセンス   |プログラミング言語 | Contributor |   スター   | フォーク |
 |:----------|:----------:|:------:|------:|------:|------:|
-| QuantPy | BSD 3-Clause | Python |1|5|8|
+| [QuantPy](https://github.com/openql-org/quantpy) | BSD 3-Clause | Python |1|5|8|
 
 また、OpenQLでは、様々な言語で量子計算のライブラリ開発の取り組みを目標に掲げており、Elixir 実装の quantex、nodeJS 実装の quantjs、Julia 実装の quantjl、C/C++言語実装の libopenql、Haskell 実装の haskell-openql の開発者も募っています。これ以外の言語対応やライブラリの追加も、コミュニティ・メンバーの興味に応じて立ち上げていきます。
 
@@ -123,9 +113,8 @@ OpenQL Projectは、量子コンピューターでオープンソースのライ
 
 | 名前       |   ライセンス   |プログラミング言語 | Contributor |   スター   | フォーク |
 |:----------|:----------:|:------:|------:|------:|------:|
-| ProjectQ | Apache-2.0 | Python |11|398|119|
-| FermiLib | Apache-2.0 | Python |10|47|31|
-
+| [ProjectQ](https://github.com/ProjectQ-Framework/ProjectQ) | Apache-2.0 | Python |11|398|119|
+| [FermiLib](https://github.com/ProjectQ-Framework/FermiLib) | Apache-2.0 | Python |10|47|31|
 
 ## QunaSys
 
@@ -136,23 +125,16 @@ GitHub上の他のライブラリとの比較をみると、確かに速いで�
 
 | 名前       |   ライセンス   |プログラミング言語 | Contributor |   スター   | フォーク |
 |:----------|:----------:|:------:|------:|------:|------:|
-| Qulacs  | MIT | C++ |6|15|13|
-
-
-
-
-
+| [Qulacs](https://github.com/qulacs/qulacs) | MIT | C++ |6|15|13|
 
 ## QuTiP
 
 Quantum Toolbox in Python、略して[QuTiP](http://qutip.org/)はこれまで紹介したものとは少し異なりますが、数値計算向けのライブラリです。日本学術振興会も支援しています。
 アドベントカレンダー2の[18日目](https://qiita.com/masaphys/items/38aeaee5313f81e15414)の記事で[QuTiP](http://qutip.org/)を使用しています。
 
-
 | 名前       |   ライセンス   |プログラミング言語 | Contributor |   スター   | フォーク |
 |:----------|:----------:|:------:|------:|------:|------:|
-| QuTiP | 3条項BSDライセンス | Python |44|543|229|
-
+| [QuTiP](https://github.com/qutip/qutip) | 3条項BSDライセンス | Python |44|543|229|
 
 ## Rigetti
 
@@ -165,8 +147,8 @@ Rigettiはアメリカのスタートアップ企業で、IBMと同様に量子�
 
 | 名前       |   ライセンス   |プログラミング言語 | Contributor |   スター   | フォーク |
 |:----------|:----------:|:------:|------:|------:|------:|
-| pyQuil | Apache-2.0 | Python |54|684|184|
-| Grove | Apache-2.0 | Python |25|227|79|
+| [pyQuil](https://github.com/rigetti/pyquil) | Apache-2.0 | Python |54|684|184|
+| [Grove](https://github.com/rigetti/grove) | Apache-2.0 | Python |25|227|79|
 
 ## Xanadu
 
@@ -178,11 +160,10 @@ Xanaduは光を用いた量子
 
 | 名前       |   ライセンス   |プログラミング言語 | Contributor |   スター   | フォーク |
 |:----------|:----------:|:------:|------:|------:|------:|
-| Strawberry Fields | Apache-2.0 | Python |7|200|31|
+| [Strawberry Fields](https://github.com/XanaduAI/strawberryfields) | Apache-2.0 | Python |7|200|31|
 
 ## あとがき
 
 ちょっと時間がなくて急いで書いてしまいました。後日加筆する予定です。
 取り上げてほしいOSSがあればコメントください。
 加筆・訂正したときには[Twitter](https://twitter.com/ikkoham)で告知します。
-
