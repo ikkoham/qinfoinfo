@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>専門用語集 on 量子情報情報</title>
+    <link>/tech-terms/</link>
+    <description>Recent content in 専門用語集 on 量子情報情報</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 04 Mar 2019 23:27:34 +0900</lastBuildDate>
+    
+	<atom:link href="/tech-terms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>量子誤り訂正(Quantum Error Correction)</title>
+      <link>/tech-terms/qec/</link>
+      <pubDate>Mon, 04 Mar 2019 23:31:24 +0900</pubDate>
+      
+      <guid>/tech-terms/qec/</guid>
+      <description>ここに量子誤り訂正の詳細な説明を書く。</description>
+    </item>
+    
+  </channel>
+</rss>

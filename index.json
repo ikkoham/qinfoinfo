@@ -56,6 +56,20 @@
 	"content": " Qmedia  「研究者が書く量子関連情報を正しく伝えるメディア」 URL: https://www.qmedia.jp/  "
 },
 {
+	"uri": "/tech-terms/qec/",
+	"title": "量子誤り訂正(Quantum Error Correction)",
+	"tags": [],
+	"description": "",
+	"content": "ここに量子誤り訂正の詳細な説明を書く。\n"
+},
+{
+	"uri": "/tech-terms/",
+	"title": "専門用語集",
+	"tags": [],
+	"description": "",
+	"content": " 専門用語集 量子誤り訂正(Quantum Error Correction)\n"
+},
+{
 	"uri": "/domestic-study/2019/",
 	"title": "勉強会(2019)",
 	"tags": [],
