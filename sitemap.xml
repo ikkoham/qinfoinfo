@@ -74,6 +74,7 @@
   
   <url>
     <loc>/_footer/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
