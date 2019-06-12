@@ -1,5 +1,7 @@
 # 量子情報情報
 
+[![Build Status](https://travis-ci.org/ikkoham/qinfoinfo.svg?branch=master)](https://travis-ci.org/ikkoham/qinfoinfo)
+
 URL: https://i.qinfo.tech/
 
 ## 運営方針 
