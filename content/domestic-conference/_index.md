@@ -35,12 +35,22 @@ date = 2018-08-30T00:23:13+09:00
 - 11/7(水) ～ 11/09(金) [高次元量子雑音の統計モデリング](http://www.kurims.kyoto-u.ac.jp/~kyodo/workshop-ja.html)
   京都大学 数理解析研究所
 
+- 11/26(月) ～ 11/27(火) [第39回量子情報技術研究会 (QIT39)](https://www.ieice.org/es/qit/qit39/)
+  東京大学　駒場リサーチキャンパス　 先端科学技術研究センター
+
 ### 12月
-- 12/6(木) [第25回 量子情報関西 Student Chapter](https://sites.google.com/site/qikansai/25meeting)
+- 12/6(木) [第25回 量子情報関西 Student Chapter](https://sites.google.com/site/qikansai/past/25meeting)
   大阪大学 豊中キャンパス
 
 ## 2019年
 
 ### 5月
+- 5/20(月) 〜 5/21(火) [第40回量子情報技術研究会 (QIT40)](https://www.ieice.org/es/qit/qit40/)
+  九州大学筑紫キャンパス筑紫ホール
+
 - 5/27(月) 〜 6/28(金) [Long-term workshop "Quantum Information and String Theory 2019"](https://www2.yukawa.kyoto-u.ac.jp/~qist2019/index.php)
   京都大学 基礎物理学研究所
+
+### 7月
+- 7/1(月) [第26回 量子情報関西 Student Chapter](https://sites.google.com/site/qikansai/tesuto)
+  大阪大学 豊中キャンパス　基礎工学研究科G棟 516室
