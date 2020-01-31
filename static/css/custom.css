@@ -16,3 +16,6 @@ section strong {
   font-weight: bolder;
 }
 
+h3 {
+  line-height: normal;
+}
