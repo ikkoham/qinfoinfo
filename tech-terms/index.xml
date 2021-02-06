@@ -6,11 +6,7 @@
     <description>Recent content in 専門用語集 on 量子情報情報</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 04 Mar 2019 23:27:34 +0900</lastBuildDate>
-    
-	<atom:link href="/tech-terms/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 04 Mar 2019 23:27:34 +0900</lastBuildDate><atom:link href="/tech-terms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>量子誤り訂正(Quantum Error Correction)</title>
       <link>/tech-terms/qec/</link>

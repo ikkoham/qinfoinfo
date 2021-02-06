@@ -6,10 +6,6 @@
     <description>Recent content in ニュースサイト on 量子情報情報</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Aug 2018 23:12:19 +0900</lastBuildDate>
-    
-	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 13 Aug 2018 23:12:19 +0900</lastBuildDate><atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
