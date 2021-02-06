@@ -276,6 +276,6 @@ weight = 5
 - 研究分野: 量子情報理論
 - HP: http://www.kecl.ntt.co.jp/media/computing_theory-j.html
 
-### NTTセキュアプラットホーム研究所
+### NTTセキュアプラットフォーム研究所
 - 研究分野: 量子情報、量子光学、誤り耐性量子計算
 - HP: https://www.ntt.co.jp/sc/
