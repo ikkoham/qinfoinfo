@@ -166,9 +166,21 @@ weight = 5
 
 ## 名古屋大学
 
+### 情報学研究科 複雑系科学専攻 多自由度システム情報論講座 (谷村 省吾)
+- 研究分野: 量子基礎論、量子力学、量子情報理論
+- HP: https://www.phys.cs.i.nagoya-u.ac.jp/
+
+### 情報学研究科 数理情報学専攻 数理情報モデル論講座 (西村 治道, ブシェーミ フランチェスコ)
+- 研究分野: 計算量理論、量子情報など
+- HP: https://www.i.nagoya-u.ac.jp/gs/mi/
+
 ### 多元数理科学研究科 林研究室 (林 正人)
 - 研究分野: 量子情報理論 情報理論 数理統計学
 - HP: http://www.math.nagoya-u.ac.jp/~masahito/index_j.html
+
+### 多元数理科学研究科 林研究室 (ルガル フランソワ)
+- 研究分野: 計算量理論, 量子計算
+- HP: http://www.francoislegall.com/index-j.html
 
 ## 京都大学
 
