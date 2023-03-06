@@ -291,3 +291,7 @@ weight = 5
 ### NTTセキュアプラットフォーム研究所
 - 研究分野: 量子情報、量子光学、誤り耐性量子計算
 - HP: https://www.ntt.co.jp/sc/
+
+### 分子科学研究所　大森研究室（大森賢治）
+- 研究分野: 量子コンピュータ・量子シミュレーション
+- HP: https://groups.ims.ac.jp/organization/ohmori_g/
