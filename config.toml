@@ -35,5 +35,3 @@ identifier = "github"
 url = "https://github.com/ikkoham/qinfoinfo"
 weight = 10
 
-[languages.ja.blackfriday]
-fractions = false
