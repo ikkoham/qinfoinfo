@@ -1,29 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>OSS on 量子情報情報</title>
-    <link>/oss/</link>
-    <description>Recent content in OSS on 量子情報情報</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Sun, 23 Dec 2018 23:34:23 +0900</lastBuildDate><atom:link href="/oss/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>量子コンピュータのオープンソース・ソフトウェア</title>
-      <link>/oss/advent2018/</link>
-      <pubDate>Sun, 23 Dec 2018 23:34:23 +0900</pubDate>
-      
-      <guid>/oss/advent2018/</guid>
-      <description>まえがき 量子コンピュータ Advent Calendar 2018の23日目の記事です。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OSS on 量子情報情報</title><link>/oss/</link><description>Recent content in OSS on 量子情報情報</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 23 Dec 2018 23:34:23 +0900</lastBuildDate><atom:link href="/oss/index.xml" rel="self" type="application/rss+xml"/><item><title>量子コンピュータのオープンソース・ソフトウェア</title><link>/oss/advent2018/</link><pubDate>Sun, 23 Dec 2018 23:34:23 +0900</pubDate><guid>/oss/advent2018/</guid><description>まえがき 量子コンピュータ Advent Calendar 2018の23日目の記事です。
 OpenQLのなかの人の一人として記事を書いています。この記事を執筆する機会をいただけて感謝しております。
 2014年から始まる第二次量子コンピュータブームでは、オープンソース・ソフトウェア(OSS)がたくさん生み出されています。この記事では、量子コンピュータに関するオープンソース・ソフトウェアがあるのかをまとめたいと思います。 このアドベントカレンダーの1日目の記事にある通り、量子コンピュータには汎用的な「ゲート型(と言われるがゲート操作をするとは限らない)」量子コンピュータと、イジングモデルに特化した「量子アニーリング型」と呼ばれているものがあります。この記事では色々と煩わしい「量子コンピュータ」の定義問題には立ち入らず、すべての量子コンピュータに関わるOSSをまとめようと思います。
 OSSというのは、Wikipedia的に言うと、「利用者の目的を問わずソースコードを使用、調査、再利用、修正、拡張、再配布が可能なソフトウェアの総称である」です。量子コンピュータにおいても、多くのOSSがあります。これらはGitHub上で公開されていることが多いので、スターの数やコントリビュータの数など多くの情報がわかります。OSSにおいてはライセンスも重要です。現在どんなOSSがあって、それぞれどんな感じなのか、個人的にも気になるのでまとめてみました。著者の不理解により、誤りなどがあるかもしれませんが、その場合は編集リクエストをお送りいただければ幸いです。
 この記事の情報は2018年12月23日のものとします。 順番はアルファベット順です。
 D-Wave Systems 世界で最初の商用量子アニーリングマシンを開発した、カナダのD-WaveのOSSを見ていきます。 本アドベントカレンダーにおいても、9日目にはOceanを使った足し算、Hybridについては　１１日目、13日目にはピクロス(お絵かきロジック)を解いています。
-   名前 ライセンス プログラミング言語 Contributor スター フォーク     dwave-ocean-sdk Apache-2.0 Python 4 67 12   D-Wave Hybrid Apache-2.0 Python 3 15 10   Qbsolv Apache-2.0 C++ 20 833 192    正直に言って、D-Waveを使用したことがないので、各ライブラリの位置付けがいまいちわからないです。どなたか詳細を加筆して編集リクエストをいただけると嬉しいです。
+名前 ライセンス プログラミング言語 Contributor スター フォーク dwave-ocean-sdk Apache-2.0 Python 4 67 12 D-Wave Hybrid Apache-2.0 Python 3 15 10 Qbsolv Apache-2.0 C++ 20 833 192 正直に言って、D-Waveを使用したことがないので、各ライブラリの位置付けがいまいちわからないです。どなたか詳細を加筆して編集リクエストをいただけると嬉しいです。
 Google 72量子ビットの量子プロセッサ「Bristlecone」を開発中のGoogleですが、OSSもリリースしています。 ここで紹介するものは　Googleの公式のプロダクトではないので、Googleと書くのも微妙な気がしますが、quantumlibとかいてもピンと来ないので、Googleにしておきます。
 Cirqはアドベントカレンダーの10日目で紹介されています。OpenFermionは量子化学で出てくるフェルミオンを量子コンピュータで扱うためのライブラリです。 OpenFermion-CirqではOpenFermionで生成したハミルトニアンをCirq向けにコンパイルすることが出来ます。
-   名前 ライセンス プログラミング言語 Contributor スター フォーク     Cirq Apache-2.</description>
-    </item>
-    
-  </channel>
-</rss>
+名前 ライセンス プログラミング言語 Contributor スター フォーク Cirq Apache-2.0 Python 35 1272 185 OpenFermion Apache-2.0 Python 29 682 160 OpenFermion-Cirq Apache-2.0 Python 8 144 27 IBM クラウド上の量子コンピュータを公開しているIBMは多くのOSSをリリースしています。Quantum Information Science KitことQiskitは4つの要素に分かれます(現在リリースされているのは3つです。)</description></item></channel></rss>

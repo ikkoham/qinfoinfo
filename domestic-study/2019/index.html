@@ -1,540 +1,127 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>量子情報情報</title>
-    
-      <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2021-04-24T12:38:00 UTC">
-<title>勉強会(2019) :: 量子情報情報</title>
-<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
-<link href="/css/font-awesome.min.css" rel="stylesheet">
-<link href="/css/nucleus.css" rel="stylesheet">
-<link href="/theme-flex/style.css" rel="stylesheet">
-
-<link rel="stylesheet" href="/css/bootstrap.min.css">
-<script src="/js/jquery-2.x.min.js"></script>
-<script type="text/javascript">
-      var baseurl = "\/";
-</script>
-<link rel="stylesheet" href="/css/custom.css">
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119897491-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-119897491-2');
-</script>
-
-
-    
-  </head>
-  <body data-url="/domestic-study/2019/">
-    
-      <header>
-  <div class="logo">
-    
-	
-  
-    <a class="baselink" href="/">量子情報情報</a>
-  
-
-
-  </div>
-  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
-    <nav class="shortcuts">
-            <li class="" role="">
-                <a href="https://github.com/ikkoham/qinfoinfo"  rel="noopener">
-                  <i class='fa fa-github'></i> <label>Github repo</label>
-                </a>
-            </li>
-    </nav>
-</header>
-<article>
-  <aside>
-    <ul class="menu">
-          <li data-nav-id="/" class="dd-item">
-          <a href="/">
-            <i class="fa fa-fw fa-home"></i>
-          </a>
-          </li>
-    <li data-nav-id="/domestic-conference/" class="dd-item
-        ">
-      <div>
-      <a href="/domestic-conference/">国内研究会</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/domestic-study/" class="dd-item parent haschildren
-        ">
-      <div>
-      <a href="/domestic-study/">国内勉強会</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-        <ul>
-      <li data-nav-id="/domestic-study/2019/" class="dd-item active">
-        <div>
-          <a href="/domestic-study/2019/">
-            勉強会(2019)
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-      <li data-nav-id="/domestic-study/2018/" class="dd-item">
-        <div>
-          <a href="/domestic-study/2018/">
-            勉強会(2018)
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-        </ul>
-    </li>
-    <li data-nav-id="/international-conference/" class="dd-item
-        ">
-      <div>
-      <a href="/international-conference/">国際会議</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/lab/" class="dd-item
-        ">
-      <div>
-      <a href="/lab/">研究室・研究機関</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/book/" class="dd-item
-        ">
-      <div>
-      <a href="/book/">本</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/oss/" class="dd-item haschildren
-        ">
-      <div>
-      <a href="/oss/">OSS</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-        <ul>
-      <li data-nav-id="/oss/advent2018/" class="dd-item">
-        <div>
-          <a href="/oss/advent2018/">
-            量子コンピュータのオープンソース・ソフトウェア
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-        </ul>
-    </li>
-    <li data-nav-id="/journal-site/" class="dd-item
-        ">
-      <div>
-      <a href="/journal-site/">論文サイト</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/news/" class="dd-item
-        ">
-      <div>
-      <a href="/news/">ニュースサイト</a><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-    </li>
-    <li data-nav-id="/tech-terms/" class="dd-item haschildren
-        ">
-      <div>
-      <a href="/tech-terms/">専門用語集</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-        <ul>
-      <li data-nav-id="/tech-terms/qec/" class="dd-item">
-        <div>
-          <a href="/tech-terms/qec/">
-            量子誤り訂正(Quantum Error Correction)
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-        </ul>
-    </li>
-
-
-
-
-    </ul>
-    <section>
-    </section>
-  </aside>
-  <section class="page">
-    
-    <div class="nav-select">
-      <center>Navigation : 
-        <select onchange="javascript:location.href = this.value;">
-          
-    <option value="/domestic-conference/" >
-   国内研究会</option>
-    <option value="/domestic-study/" >
-   国内勉強会</option> 
-      <option value="/domestic-study/2019/"  selected>- 勉強会(2019)</option>
-      <option value="/domestic-study/2018/" >- 勉強会(2018)</option>
-  
-    <option value="/international-conference/" >
-   国際会議</option>
-    <option value="/lab/" >
-   研究室・研究機関</option>
-    <option value="/book/" >
-   本</option>
-    <option value="/oss/" >
-   OSS</option>
-    <option value="/journal-site/" >
-   論文サイト</option>
-    <option value="/news/" >
-   ニュースサイト</option>
-    <option value="/tech-terms/" >
-   専門用語集</option>
-
-
-
-        </select>
-      </center>
-    </div>
-      <div>
-        <div class="searchbox">
-          <input data-search-input id="search-by" type="text" placeholder="検索...">
-        </div>
-        <script type="text/javascript" src="/js/lunr.min.js"></script>
-        <script type="text/javascript" src="/js/auto-complete.js"></script>
-        <link href="/css/auto-complete.css" rel="stylesheet">
-        <script type="text/javascript">
-          
-              var baseurl = "\/";
-          
-        </script>
-        <script type="text/javascript" src="/js/search.js"></script>
-      </div>
-    
-
-    <h1>勉強会(2019)</h1>
-    
-    
-    
-    <h3 id="1月">1月</h3>
-<ul>
-<li>01/08(火) 18:30 〜 20:30 <a href="https://openql.connpass.com/event/109709">量子プログラミング・ハンズオン（Q#の基礎）</a>
-Microsoft 品川オフィス 東京都港区</li>
-<li>01/09(水) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/112883/">新しい量子化学―電子構造の理論入門〈上〉輪講その６</a>
-MDR株式会社 東京都文京区</li>
-<li>01/10(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/101015/">量子ゲートで素因数分解：変分法を用いた種々の方法</a>
-MDR株式会社 東京都文京区</li>
-<li>01/11(金) 19:30 〜 21:30 <a href="https://teamai.connpass.com/event/113094/">量子コンピュータハッカソン by Team AI</a>
-Team AI Base 東京都渋谷区</li>
-<li>01/15(火) 17:30 〜 18:30 <a href="https://qnn.connpass.com/event/115431/">【急遽開催】汎用量子コンピュータまるわかり1/15開催</a>
-MDR株式会社 東京都文京区</li>
-<li>01/16(水) 19:00 〜 20:30 <a href="https://qnn.connpass.com/event/115445/">【福岡】量子コンピュータ入門#3 ～2018年の総括＋今後の展望は機械学習～ with 福岡 理学部</a>
-株式会社Fusic 福岡市</li>
-<li>01/17(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/107852">量子フーリエ変換！BlueqatでPythonハンズオン</a>
-MDR株式会社 東京都文京区</li>
-<li>01/17(木) 20:00 〜 21:30 <a href="https://liberal-arts-for-tech.connpass.com/event/113694/">量子コンピューティング勉強会（基礎編） #1</a>
-水道橋駅、神保町駅、九段下駅周辺</li>
-<li>01/18(金) 13:00 〜 16:00 <a href="https://qnn.connpass.com/event/113875/">量子コンピュータでコーヒーブレンド最適化</a>
-MDR株式会社 東京都文京区</li>
-<li>01/19(土) 13:00 〜 17:00 <a href="https://connpass.com/event/114549/">量子情報勉強会 |62&gt;</a>
-（株）ねこねこエンジニアリング 東京都千代田区</li>
-<li>01/21(月) 19:30 〜 21:30 <a href="https://openql.connpass.com/event/106727/">量子アルゴリズム各論（Groverのアルゴリズム）</a>
-Repro株式会社 東京都渋谷区</li>
-<li>01/22(火) 17:30 〜 18:30 <a href="https://qnn.connpass.com/event/115352/">【急遽開催】汎用量子コンピュータまるわかり1/22開催</a>
-MDR株式会社 東京都文京区</li>
-<li>01/23(水) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/115433/">新しい量子化学―電子構造の理論入門〈上〉輪講その７</a>
-MDR株式会社 東京都文京区</li>
-<li>01/24(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/107853/">多ビットのゲート加算器・モジュロ加算器pythonハンズオン</a>
-MDR株式会社 東京都文京区</li>
-<li>01/31(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/109129">Blueqatでpython量子ゲートmaxcutハンズオン</a>
-MDR株式会社 東京都文京区</li>
-</ul>
-<h3 id="2月">2月</h3>
-<ul>
-<li>02/04(月) 19:30 〜 21:30 <a href="https://openql.connpass.com/event/117664">量子アルゴリズム各論（エンタングルメントと量子テレポーテーション）</a>
-Repro株式会社 東京都渋谷区</li>
-<li>02/05(火) 17:30 〜 18:30 <a href="https://qnn.connpass.com/event/115432/">【急遽開催】汎用量子コンピュータまるわかり</a>
-MDR株式会社 東京都文京区</li>
-<li>02/06(水) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/118207/">新しい量子化学―電子構造の理論入門〈上〉輪講その８</a>
-MDR株式会社 東京都文京区</li>
-<li>02/06(水) 18:30 〜 20:30 <a href="https://qunasys.connpass.com/event/118693/">Quantum Native Meetup #6</a>
-Φカフェ 東京都文京区</li>
-<li>02/07(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/109462">量子テレポーテーションプログラミング：CVプログラミング</a>
-MDR株式会社 東京都文京区</li>
-<li>02/07(木) 20:00 〜 21:30 <a href="https://liberal-arts-for-tech.connpass.com/event/117452/">量子コンピューティング勉強会（基礎編） #2</a>
-水道橋駅、神保町駅、九段下駅周辺</li>
-<li>02/13(水) 19:00 〜 20:30 <a href="https://quantum.connpass.com/event/115589/">第2回 量子ゲートの最新状況を学ぶ</a>
-テラスカイ東京本社 東京都中央区</li>
-<li>02/14(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/109465">量子ゲートモデルにおける量子機械学習全般</a>
-株式会社ナビタイムジャパン 東京都港区</li>
-<li>02/15(金) 13:00 〜 16:00 <a href="https://qnn.connpass.com/event/117697">続・量子コンピュータでコーヒーブレンド最適化</a>
-MDR株式会社 東京都文京区</li>
-<li>02/17(日) 13:00 〜 16:00 <a href="https://qnn.connpass.com/event/119360/">中学生・高校生におすすめ★科学教室「量子コンピュータを使ってみよう」2/17</a>
-MDR株式会社 東京都文京区</li>
-<li>02/18(月) 19:30 〜 21:30 <a href="https://openql.connpass.com/event/115421/">量子計算の原理をゲームで学ぶ</a>
-Repro株式会社 東京都渋谷区</li>
-<li>02/20(水) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/119959/">新しい量子化学―電子構造の理論入門〈上〉輪講その９</a>
-MDR株式会社 東京都文京区</li>
-<li>02/21(木) 17:00 〜 18:30 <a href="https://qnn.connpass.com/event/120288/">Quantum Computer in English</a>
-MDR株式会社 東京都文京区</li>
-<li>02/21(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/110873">耐量子コンピュータの格子暗号を実装してみるぞ！</a>
-MDR株式会社 東京都文京区</li>
-<li>02/21(木) 20:00 〜 22:00 <a href="https://liberal-arts-for-tech.connpass.com/event/120108/">量子コンピューティング勉強会（基礎編） #3</a>
-YS西神田ビル2F 東京都千代田区</li>
-<li>02/22(金) 18:30 〜 20:30 <a href="https://inteface-meet-up.connpass.com/event/114142/">500号記念全国オフ会「量子コンピュータ＠京都」</a>
-MTRL KYOTO</li>
-<li>02/24(日) 13:00 〜 16:00 <a href="https://qnn.connpass.com/event/119362/">中学生・高校生におすすめ★科学教室「量子コンピュータを使ってみよう」2/24</a>
-MDR株式会社 東京都文京区</li>
-<li>02/25(月) 19:00 〜 21:00 <a href="https://openql.connpass.com/event/118035/">量子プログラミング言語Q#で量子アルゴリズムを学ぶ１（ハンズオン）</a>
-Microsoft 品川オフィス 東京都港区</li>
-<li>02/28(木) 13:00 〜 16:00 <a href="https://qnn.connpass.com/event/121074/">続々・量子コンピュータでコーヒーブレンド最適化</a>
-MDR株式会社 東京都文京区</li>
-<li>02/28(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/112416/">量子アニーリングボルツマンマシンで強化学習で迷路とか解く。ハンズオン。</a>
-MDR株式会社 東京都文京区</li>
-</ul>
-<h3 id="3月">3月</h3>
-<ul>
-<li>03/01(金) 13:00 〜 16:00 <a href="https://qnn.connpass.com/event/117736">量子コンピュータでミックスジュース</a>
-MDR株式会社 東京都文京区</li>
-<li>03/04(月) 19:30 〜 21:30 <a href="https://openql.connpass.com/event/117674/">量子オートマトンと量子プログラミング・アーキテクチャ</a>
-Repro株式会社 東京都渋谷区</li>
-<li>03/05(火) 20:00 〜 22:00 <a href="https://liberal-arts-for-tech.connpass.com/event/120222/">基礎から応用やトレンドまで学ぶ量子コンピューティング入門セミナー</a>
-YS西神田ビル2F 東京都千代田区</li>
-<li>03/06(水) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/121619/">新しい量子化学―電子構造の理論入門〈上〉輪講その10</a>
-MDR株式会社 東京都文京区</li>
-<li>03/07(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/112585/">量子コンピュータと量子アニーラでリコメンドエンジン作るです。＋ペガサスグラフ見る</a>
-MDR株式会社 東京都文京区</li>
-<li>03/07(木) 20:00 〜 22:00 <a href="https://liberal-arts-for-tech.connpass.com/event/121770/">量子コンピューティング勉強会（基礎編） #4</a>
-YS西神田ビル2F 東京都千代田区</li>
-<li>03/09(土) 15:00 〜 17:00 <a href="https://osaka-dtc.connpass.com/event/123596/">[輪読会]第7回 量子計算理論</a>
-大阪分散コミュニティー 大阪府大阪市福島区</li>
-<li>03/11(月) 13:00 〜 18:00 <a href="https://www.ipa.go.jp/jinzai/mitou/2019/quantum_symposium.html">量子コンピューティング技術シンポジウム（京都会場）</a>
-リーガロイヤルホテル京都 京都府京都市</li>
-<li>03/14(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/112586/">量子コンピュータと自動車業界</a>
-MDR株式会社 東京都文京区</li>
-<li>03/15(金) 13:00 〜 16:00 <a href="https://qnn.connpass.com/event/117738">量子コンピュータでドレッシングや調味料作る</a>
-MDR株式会社 東京都文京区</li>
-<li>03/18(月) 13:00 〜 18:00 <a href="https://connpass.com/event/120750/">量子コンピューティング技術シンポジウム（東京会場）</a>
-東京ミッドタウン 東京都港区</li>
-<li>03/19(火) 18:30 〜 21:30 <a href="https://yahoo-osaka.connpass.com/event/120420/">Mix Leap Study #37 - 世界の最先端量子コンピュータ技術と機械学習</a>
-ヤフー株式会社 大阪グランフロントオフィス 大阪府大阪市</li>
-<li>03/20(水) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/123416/">新しい量子化学―電子構造の理論入門〈上〉輪講その11</a>
-MDR株式会社 東京都文京区</li>
-<li>03/21(木) 20:00 〜 22:00 <a href="https://liberal-arts-for-tech.connpass.com/event/123592/">量子コンピューティング勉強会（基礎編） #5</a>
-YS西神田ビル2F 東京都千代田区</li>
-<li>03/28(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/112588/">とりあえず量子コンピュータでゲーム解く</a>
-MDR株式会社 東京都文京区</li>
-<li>03/30(土) 13:00 〜 17:00 <a href="https://connpass.com/event/121960/">量子情報勉強会 |64&gt;</a>
-（株）ねこねこエンジニアリング 東京都千代田区</li>
-</ul>
-<h3 id="4月">4月</h3>
-<ul>
-<li>04/03(水) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/125014/">新しい量子化学―電子構造の理論入門〈上〉輪講その12</a>
-MDR株式会社 東京都文京区</li>
-<li>04/04(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/117080/">衛星画像の地表面の物体認識や二値分類機</a>
-株式会社ナビタイムジャパン 東京都港区</li>
-<li>04/06(土) 13:00 〜 17:00 <a href="https://connpass.com/event/126465/">量子情報勉強会 |65&gt;</a>
-（株）ねこねこエンジニアリング 東京都千代田</li>
-<li>04/09(火) 20:00 〜 22:00 <a href="https://liberal-arts-for-tech.connpass.com/event/123267/">基礎から応用やトレンドまで学ぶ量子コンピューティング入門セミナー #2</a>
-YS西神田ビル2F 東京都千代田区</li>
-<li>04/11(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/117081/">量子コンピュータで量子化学を全般的に見返す</a>
-MDR株式会社 東京都文京区</li>
-<li>04/11(木) 20:00 〜 22:00<a href="https://liberal-arts-for-tech.connpass.com/event/125082/">量子コンピューティング勉強会（実践編） #1</a>
-水道橋駅周辺 千代田区</li>
-<li>04/16(火) 19:00 〜 21:00 <a href="https://jisedai.connpass.com/event/124025/">【GMO】実践！ElasticsearchIBM社[Qiskit]で量子計算してみた</a>
-シナジーカフェ GMO Yours 東京都渋谷区</li>
-<li>04/17(水) 17:00 〜 19:00<a href="https://qnn.connpass.com/event/126779/">新しい量子化学―電子構造の理論入門〈上〉輪講その13</a>
-MDR株式会社  東京都文京区</li>
-<li>04/18(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/117446/">カナダのD-Wave Leapの使い方完全詳細&amp;量子ゲートで量子アニーリングをプログラミングする</a>
-MDR株式会社 東京都文京区</li>
-<li>04/18(木) 19:00 〜 21:00<a href="https://jisedai.connpass.com/event/125711/">【大阪】GMO次世代勉強会　Elasticsearchを実業務に適用してみた＆量子コンピュータ</a>
-シナジーカフェ GMO Yours 大阪府大阪市</li>
-<li>04/22(月) 19:00 〜 21:00<a href="https://aitc-openlab.connpass.com/event/126630/">2019年4月期AITCオープンラボ「量子コンピューティング　シリーズ第1回~富士通様の取り組み~」</a>
-富士通株式会社 東京都港区</li>
-<li>04/22(月) 19:15 〜 20:30 <a href="https://pt-quantum.connpass.com/event/126162/">「文系のための量子コンピュータ」「量子コンピュータはビジネスを変えるか？」</a>
-パソナグループ本社 東京都千代田区</li>
-<li>04/22(月) 19:30 〜 21:30 <a href="https://openql.connpass.com/event/123938/">量子コンピューターについて語ろうLT大会＆懇親会</a>
-Repro株式会社 東京都渋谷区</li>
-<li>04/25(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/117477">ゲームで強化学習（と組合せ最適化）がんばる会５</a>
-MDR株式会社 東京都文京区</li>
-<li>04/25(木) 20:00 〜 22:00<a href="https://liberal-arts-for-tech.connpass.com/event/127726/">量子コンピューティング勉強会（実践編） #2</a>
-水道橋駅周辺 千代田区</li>
-<li>04/26(金) 13:00 〜 20:00<a href="https://bmxug.connpass.com/event/120823/">IBM Cloud Community Summit 2019.04</a>
-日本アイ・ビー・エム株式会社 東京都中央区</li>
-</ul>
-<h3 id="5月">5月</h3>
-<ul>
-<li>05/08(水) 17:00 〜 19:00<a href="https://qnn.connpass.com/event/128419/">新しい量子化学―電子構造の理論入門〈上〉輪講その14</a>
-MDR株式会社  東京都文京区</li>
-<li>05/09(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/117712">ダイヤモンドと量子コンピュータでつくる量子マネー</a>
-MDR株式会社 東京都文京区</li>
-<li>05/09(木) 20:00 〜 22:00<a href="https://liberal-arts-for-tech.connpass.com/event/129474/">量子コンピューティング勉強会（実践編） #3</a>
-水道橋駅周辺 千代田区</li>
-<li>05/11(土) 13:00 〜 17:00<a href="https://connpass.com/event/127965/">量子情報勉強会 |66&gt;</a>
-（株）ねこねこエンジニアリング 〒101-0032 東京都千代田区</li>
-<li>05/16(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/117948/">制約充足問題で論理回路を逆算</a>
-MDR株式会社 東京都文京区</li>
-<li>05/17(金) 20:00 〜 22:00<a href="https://liberal-arts-for-tech.connpass.com/event/127521/">基礎から応用やトレンドまで学ぶ量子コンピューティング入門セミナー #3</a>
-水道橋駅周辺 千代田区</li>
-<li>05/20(月) 19:30 〜 21:30<a href="https://openql.connpass.com/event/123981/">量子ゲートの分解（Solovay-Kitaevの定理を学ぶ）</a>
-Repro株式会社 東京都渋谷区</li>
-<li>05/21(火) 19:00 〜 21:00<a href="https://openql.connpass.com/event/128599/">Build 2019 local community event for Q# in Tokyo</a>
-日本マイクロソフト株式会社 品川オフィス 品川オフィス 30F Open Seminar Circle 東京都港区</li>
-<li>05/22(水) 17:00 〜 19:00<a href="https://qnn.connpass.com/event/130650/">新しい量子化学―電子構造の理論入門〈上〉輪講その15</a>
-MDR株式会社  東京都文京区</li>
-<li>05/23(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/119063/">量子GAN</a>
-MDR株式会社 東京都文京区</li>
-<li>05/23(木) 18:30 〜 20:00<a href="https://qnn.connpass.com/event/119063/">量子GAN</a>
-株式会社ナビタイムジャパン 東京都港区</li>
-<li>05/23(木) 19:00 〜 21:00<a href="https://aitc-openlab.connpass.com/event/127360/">2019年5月期AITCオープンラボ「量子コンピューティング　シリーズ第2回～IBM様の取り組み～</a>
-フクラシア浜松町A会議室 東京都港区</li>
-<li>05/23(木) 20:00 〜 22:00<a href="https://liberal-arts-for-tech.connpass.com/event/130826/">量子コンピューティング勉強会（実践編） #4</a>
-水道橋駅周辺 千代田区</li>
-<li>05/24(金) 18:30 〜 19:30<a href="https://automobile.connpass.com/event/128722/">量子コンピュータと自動運転、MaaS技術。</a>
-Blueqat Hub/ MDR株式会社 東京都文京区</li>
-<li>05/27(月) 10:30 〜 11:30<a href="https://qnn.connpass.com/event/130432/">AIと量子コンピュータとウェブマーケティング【午前】</a>
-MDR株式会社 文京区</li>
-<li>05/27(月) 14:00 〜 15:00<a href="https://qnn.connpass.com/event/130435/">AIと量子コンピュータとウェブマーケティング【午後】</a>
-Blueqat Hub/ MDR株式会社 東京都文京区</li>
-<li>05/30(木) 16:00 〜 20:00 <a href="https://qnn.connpass.com/event/121940/">Blueqat Summit Tokyo 2019</a>
-株式会社ナビタイムジャパン 東京都港区</li>
-</ul>
-<h3 id="6月">6月</h3>
-<ul>
-<li>06/03(月) 19:00 〜 21:00<a href="https://aifashion.connpass.com/event/133058/">AI勉強会｜料理と深層学習、最適化、量子コンピュータ</a>
-ABC Cooking Studio 東京都千代田区</li>
-<li>06/05(水) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/132517/">新しい量子化学―電子構造の理論入門〈上〉輪講その16</a>
-MDR株式会社  東京都文京区</li>
-<li>06/06(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/127117/">量子計算を使った機械学習モデルによるパターン認識</a>
-株式会社ナビタイムジャパン 東京都港区</li>
-<li>06/06(木) 20:00 〜 22:00 <a href="https://liberal-arts-for-tech.connpass.com/event/132794/">量子コンピューティング勉強会（実践編） #5</a>
-水道橋駅周辺 千代田区</li>
-<li>06/07(金) 10:30 〜 11:30 <a href="https://qnn.connpass.com/event/130436/">AIと量子コンピュータとウェブマーケティング【6/7午前】</a>
-Blueqat Hub/ MDR株式会社 東京都文京区</li>
-<li>06/07(金) 14:00 〜 15:00 <a href="https://qnn.connpass.com/event/130437/">AIと量子コンピュータとウェブマーケティング【6/7午後】</a>
-Blueqat Hub/ MDR株式会社 東京都文京区</li>
-<li>06/08(土) 13:00 〜 17:00 <a href="https://connpass.com/event/131039/">量子情報勉強会 |67&gt;</a>
-（株）ねこねこエンジニアリング 〒101-0032 東京都千代田区</li>
-<li>06/13(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/127118/">【オンライン配信】量子ライフゲーム</a>
-Blueqat Hub/ MDR株式会社 東京都文京区</li>
-<li>06/14(金) 18:00 〜 20:00 <a href="https://connpass.com/event/124354/">大阪大学微生物病研究所 × 阪医Python会 合同ワークショップ</a>
-大阪大学銀杏会館 大阪府吹田市</li>
-<li>06/18(火) 10:30 〜 11:30 <a href="https://qnn.connpass.com/event/135379/">量子コンピュータAIとウェブマーケティング【6/18午前】</a>
-MDR株式会社 文京区</li>
-<li>06/18(火) 14:00 〜 15:00 <a href="https://qnn.connpass.com/event/135380/">量子コンピュータAIとウェブマーケティング【6/18午後】</a>
-MDR株式会社 文京区</li>
-<li>06/19(水) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/134386/">新しい量子化学―電子構造の理論入門〈上〉輪講その17</a>
-MDR株式会社  東京都文京区</li>
-<li>06/20(木) 10:30 〜 11:30 <a href="https://qnn.connpass.com/event/135381/">量子コンピュータAIとウェブマーケティング【6/20午前】</a>
-MDR株式会社 文京区</li>
-<li>06/20(木) 14:00 〜 15:00 <a href="https://qnn.connpass.com/event/135382/">量子コンピュータAIとウェブマーケティング【6/20午後】</a>
-MDR株式会社 文京区</li>
-<li>06/20(木) 18:30 〜 20:00 <a href="https://qnn.connpass.com/event/127963/">【オンライン配信】金融リスク計算とアドテクと量子コンピュータ</a>
-株式会社ナビタイムジャパン 東京都港区</li>
-<li>06/24(月) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/134305/">新しい量子化学―電子構造の理論入門〈上〉二周目 輪講その1</a>
-MDR株式会社  東京都文京区</li>
-<li>06/24(月) 19:30 〜 21:30 <a href="https://openql.connpass.com/event/134388/">量子通信の基礎とBB84プロトコル</a>
-Repro株式会社 東京都渋谷区</li>
-<li>06/27(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/128544/">D-Waveの生成モデル</a>
-Blueqat Hub/ MDR株式会社 東京都文京区</li>
-</ul>
-<h3 id="7月">7月</h3>
-<ul>
-<li>07/03(水) 17:00 〜 19:00 <a href="https://qnn.connpass.com/event/136186/">新しい量子化学―電子構造の理論入門〈上〉輪講その18</a>
-MDR株式会社  東京都文京区</li>
-<li>07/03(水) 19:00 〜 21:00 <a href="https://aitc-openlab.connpass.com/event/133689/">2019年7月期AITCオープンラボ「量子コンピューティング　シリーズ第3回～日立様の取り組み紹介～</a>
-日立製作所　品川セミナールーム 東京都港区</li>
-<li>07/04(木) 18:30 〜 20:30 <a href="https://openql.connpass.com/event/131222/">最適化問題とPyQUBOを学ぶ</a>
-DeNAセミナールーム 東京都渋谷区</li>
-<li>07/04(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/135646/">shorのアルゴリズムの現状</a>
-MDR株式会社 文京区</li>
-<li>07/05(金) 18:30 〜 20:30 <a href="https://j-ij.connpass.com/event/136986/">OpenJijを使った量子アニーリング勉強会</a>
-テラスカイ東京本社 東京都中央区</li>
-<li>07/05(金) 19:00 〜 21:30 <a href="https://openql.connpass.com/event/134392/">Qiskit 入門(初学者向け量子プログラミング・ハンズオン)</a>
-Repro株式会社 東京都渋谷区</li>
-<li>07/06(土) 13:00 〜 17:00 <a href="https://connpass.com/event/135704/">量子情報勉強会 |68&gt;</a>
-（株）ねこねこエンジニアリング 〒101-0032 東京都千代田区</li>
-<li>07/08(月) 17:30 〜 19:30 <a href="https://qnn.connpass.com/event/137018/">新しい量子化学―電子構造の理論入門〈上〉二周目 輪講その２</a>
-MDR株式会社 東京都文京区</li>
-<li>07/11(木) 18:30 〜 19:30 <a href="https://qnn.connpass.com/event/136992/">量子流体計算</a>
-MDR株式会社 文京区</li>
-<li>07/19(金) 20:00 〜 22:00 <a href="https://liberal-arts-for-tech.connpass.com/event/135613/">基礎から応用やトレンドまで学ぶ量子コンピューティング入門セミナー【Shorのアルゴリズム編】</a>
-水道橋駅周辺 千代田区</li>
-<li>07/22(月) 19:30 〜 21:30 <a href="https://openql.connpass.com/event/134405/">量子コンピューターによる量子化学計算（基礎）</a>
-Repro株式会社 東京都渋谷区</li>
-</ul>
-<h3 id="8月">8月</h3>
-<ul>
-<li>
-<p>08/04(日) 13:00 〜 18:00 <a href="https://qnn.connpass.com/event/134383/">量子化学ハンズオン</a></p>
-</li>
-<li>
-<p>08/06(火) 19:00 〜 21:00 <a href="https://openql.connpass.com/event/135665/">量子プログラミング言語Q#で量子アルゴリズムを学ぶ２（ハンズオン）</a>
-日本マイクロソフト株式会社 品川オフィス 30F VIP Board Room 東京都港区</p>
-</li>
-<li>
-<p>08/07(水) 17:55 〜 21:00 <a href="https://qri.connpass.com/event/136126/">第二回　QCX</a>
-Google Japan 六本木ヒルズ 森タワー</p>
-</li>
-<li>
-<p>08/26(月) 19:30 〜 21:30 <a href="https://openql.connpass.com/event/132321/">量子コンピューターについて語ろうLT大会＆懇親会（2019年8月）</a>
-Repro株式会社 東京都渋谷区</p>
-</li>
-</ul>
-
-
-    
-    
-        <div class="chevrons">
-    <div id="navigation">
-<a class="nav nav-prev" href="/domestic-study/" title="国内勉強会"> <i class="fa fa-chevron-left"></i><label>国内勉強会</label></a>
-    <a class="nav nav-next" href="/domestic-study/2018/" title="勉強会(2018)" style="margin-right: 0px;"><label>勉強会(2018)</label><i class="fa fa-chevron-right"></i></a></div>
-  </div>
-
-  </section>
-</article>
-
-<footer>
-
-<div class="footline">
-    
-
-    
-
-  
-    <div class="date">
-        <i class='fa fa-calendar'></i> 最終更新 2019/03/03
-    </div>
-    
-
-    <div class="github-link">
-      <a href="https://github.com/ikkoham/qinfoinfo/edit/master/content/domestic-study/2019.md" target="blank"><i class="fa fa-code-fork"></i>
-        このページを編集する</a>
-    </div>
-  </div>
-
-
-	<div>
-
-
-  
-    
-  
-
-
-
-	</div>
-</footer>
-
-<script src="/js/clipboard.min.js"></script>
-
-<link href="/css/featherlight.min.css" rel="stylesheet">
-<script src="/js/featherlight.min.js"></script>
-
-
-
-<script src="/theme-flex/script.js"></script>
-
-
-    
-
-    
-    
-
-    
-  </body>
-</html>
+<!doctype html><html><head><title>量子情報情報</title>
+<meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=revised content="2026-03-30T18:44:19 UTC"><title>勉強会(2019) :: 量子情報情報</title>
+<link rel="shortcut icon" href=/images/favicon.png type=image/x-icon><link href=/css/font-awesome.min.css rel=stylesheet><link href=/css/nucleus.css rel=stylesheet><link href=/theme-flex/style.css rel=stylesheet><link rel=stylesheet href=/css/bootstrap.min.css><script src=/js/jquery-2.x.min.js></script><script type=text/javascript>var baseurl="/"</script><link rel=stylesheet href=/css/custom.css><script async src="https://www.googletagmanager.com/gtag/js?id=UA-119897491-2"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","UA-119897491-2")</script></head><body data-url=/domestic-study/2019/><header><div class=logo><a class=baselink href=/>量子情報情報</a></div><div class=burger><a href=javascript:void(0); style=font-size:15px>&#9776;</a></div><nav class=shortcuts><li role><a href=https://github.com/ikkoham/qinfoinfo rel=noopener><i class='fa fa-github'></i> <label>Github repo</label></a></li></nav></header><article><aside><ul class=menu><li data-nav-id=/ class=dd-item><a href=/><i class="fa fa-fw fa-home"></i></a></li><li data-nav-id=/domestic-conference/ class=dd-item><div><a href=/domestic-conference/>国内研究会</a><i class="fa fa-circle-thin read-icon"></i></div></li><li data-nav-id=/domestic-study/ class="dd-item parent haschildren"><div><a href=/domestic-study/>国内勉強会</a>
+<i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i></div><ul><li data-nav-id=/domestic-study/2019/ class="dd-item active"><div><a href=/domestic-study/2019/>勉強会(2019)
+</a><i class="fa fa-circle-thin read-icon"></i></div></li><li data-nav-id=/domestic-study/2018/ class=dd-item><div><a href=/domestic-study/2018/>勉強会(2018)
+</a><i class="fa fa-circle-thin read-icon"></i></div></li></ul></li><li data-nav-id=/international-conference/ class=dd-item><div><a href=/international-conference/>国際会議</a><i class="fa fa-circle-thin read-icon"></i></div></li><li data-nav-id=/lab/ class=dd-item><div><a href=/lab/>研究室・研究機関</a><i class="fa fa-circle-thin read-icon"></i></div></li><li data-nav-id=/book/ class=dd-item><div><a href=/book/>本</a><i class="fa fa-circle-thin read-icon"></i></div></li><li data-nav-id=/oss/ class="dd-item haschildren"><div><a href=/oss/>OSS</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i></div><ul><li data-nav-id=/oss/advent2018/ class=dd-item><div><a href=/oss/advent2018/>量子コンピュータのオープンソース・ソフトウェア
+</a><i class="fa fa-circle-thin read-icon"></i></div></li></ul></li><li data-nav-id=/journal-site/ class=dd-item><div><a href=/journal-site/>論文サイト</a><i class="fa fa-circle-thin read-icon"></i></div></li><li data-nav-id=/news/ class=dd-item><div><a href=/news/>ニュースサイト</a><i class="fa fa-circle-thin read-icon"></i></div></li><li data-nav-id=/tech-terms/ class="dd-item haschildren"><div><a href=/tech-terms/>専門用語集</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i></div><ul><li data-nav-id=/tech-terms/qec/ class=dd-item><div><a href=/tech-terms/qec/>量子誤り訂正(Quantum Error Correction)
+</a><i class="fa fa-circle-thin read-icon"></i></div></li></ul></li></ul><section></section></aside><section class=page><div class=nav-select><center>Navigation :
+<select onchange="location.href=this.value"><option value=/domestic-conference/>国内研究会</option><option value=/domestic-study/>国内勉強会</option><option value=/domestic-study/2019/ selected>- 勉強会(2019)</option><option value=/domestic-study/2018/>- 勉強会(2018)</option><option value=/international-conference/>国際会議</option><option value=/lab/>研究室・研究機関</option><option value=/book/>本</option><option value=/oss/>OSS</option><option value=/journal-site/>論文サイト</option><option value=/news/>ニュースサイト</option><option value=/tech-terms/>専門用語集</option></select></center></div><div><div class=searchbox><input data-search-input id=search-by type=text placeholder=検索...></div><script type=text/javascript src=/js/lunr.min.js></script><script type=text/javascript src=/js/auto-complete.js></script><link href=/css/auto-complete.css rel=stylesheet><script type=text/javascript>var baseurl="/"</script><script type=text/javascript src=/js/search.js></script></div><h1>勉強会(2019)</h1><h3 id=1月>1月</h3><ul><li>01/08(火) 18:30 〜 20:30 <a href=https://openql.connpass.com/event/109709>量子プログラミング・ハンズオン（Q#の基礎）</a>
+Microsoft 品川オフィス 東京都港区</li><li>01/09(水) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/112883/>新しい量子化学―電子構造の理論入門〈上〉輪講その６</a>
+MDR株式会社 東京都文京区</li><li>01/10(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/101015/>量子ゲートで素因数分解：変分法を用いた種々の方法</a>
+MDR株式会社 東京都文京区</li><li>01/11(金) 19:30 〜 21:30 <a href=https://teamai.connpass.com/event/113094/>量子コンピュータハッカソン by Team AI</a>
+Team AI Base 東京都渋谷区</li><li>01/15(火) 17:30 〜 18:30 <a href=https://qnn.connpass.com/event/115431/>【急遽開催】汎用量子コンピュータまるわかり1/15開催</a>
+MDR株式会社 東京都文京区</li><li>01/16(水) 19:00 〜 20:30 <a href=https://qnn.connpass.com/event/115445/>【福岡】量子コンピュータ入門#3 ～2018年の総括＋今後の展望は機械学習～ with 福岡 理学部</a>
+株式会社Fusic 福岡市</li><li>01/17(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/107852>量子フーリエ変換！BlueqatでPythonハンズオン</a>
+MDR株式会社 東京都文京区</li><li>01/17(木) 20:00 〜 21:30 <a href=https://liberal-arts-for-tech.connpass.com/event/113694/>量子コンピューティング勉強会（基礎編） #1</a>
+水道橋駅、神保町駅、九段下駅周辺</li><li>01/18(金) 13:00 〜 16:00 <a href=https://qnn.connpass.com/event/113875/>量子コンピュータでコーヒーブレンド最適化</a>
+MDR株式会社 東京都文京区</li><li>01/19(土) 13:00 〜 17:00 <a href=https://connpass.com/event/114549/>量子情報勉強会 |62></a>
+（株）ねこねこエンジニアリング 東京都千代田区</li><li>01/21(月) 19:30 〜 21:30 <a href=https://openql.connpass.com/event/106727/>量子アルゴリズム各論（Groverのアルゴリズム）</a>
+Repro株式会社 東京都渋谷区</li><li>01/22(火) 17:30 〜 18:30 <a href=https://qnn.connpass.com/event/115352/>【急遽開催】汎用量子コンピュータまるわかり1/22開催</a>
+MDR株式会社 東京都文京区</li><li>01/23(水) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/115433/>新しい量子化学―電子構造の理論入門〈上〉輪講その７</a>
+MDR株式会社 東京都文京区</li><li>01/24(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/107853/>多ビットのゲート加算器・モジュロ加算器pythonハンズオン</a>
+MDR株式会社 東京都文京区</li><li>01/31(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/109129>Blueqatでpython量子ゲートmaxcutハンズオン</a>
+MDR株式会社 東京都文京区</li></ul><h3 id=2月>2月</h3><ul><li>02/04(月) 19:30 〜 21:30 <a href=https://openql.connpass.com/event/117664>量子アルゴリズム各論（エンタングルメントと量子テレポーテーション）</a>
+Repro株式会社 東京都渋谷区</li><li>02/05(火) 17:30 〜 18:30 <a href=https://qnn.connpass.com/event/115432/>【急遽開催】汎用量子コンピュータまるわかり</a>
+MDR株式会社 東京都文京区</li><li>02/06(水) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/118207/>新しい量子化学―電子構造の理論入門〈上〉輪講その８</a>
+MDR株式会社 東京都文京区</li><li>02/06(水) 18:30 〜 20:30 <a href=https://qunasys.connpass.com/event/118693/>Quantum Native Meetup #6</a>
+Φカフェ 東京都文京区</li><li>02/07(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/109462>量子テレポーテーションプログラミング：CVプログラミング</a>
+MDR株式会社 東京都文京区</li><li>02/07(木) 20:00 〜 21:30 <a href=https://liberal-arts-for-tech.connpass.com/event/117452/>量子コンピューティング勉強会（基礎編） #2</a>
+水道橋駅、神保町駅、九段下駅周辺</li><li>02/13(水) 19:00 〜 20:30 <a href=https://quantum.connpass.com/event/115589/>第2回 量子ゲートの最新状況を学ぶ</a>
+テラスカイ東京本社 東京都中央区</li><li>02/14(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/109465>量子ゲートモデルにおける量子機械学習全般</a>
+株式会社ナビタイムジャパン 東京都港区</li><li>02/15(金) 13:00 〜 16:00 <a href=https://qnn.connpass.com/event/117697>続・量子コンピュータでコーヒーブレンド最適化</a>
+MDR株式会社 東京都文京区</li><li>02/17(日) 13:00 〜 16:00 <a href=https://qnn.connpass.com/event/119360/>中学生・高校生におすすめ★科学教室「量子コンピュータを使ってみよう」2/17</a>
+MDR株式会社 東京都文京区</li><li>02/18(月) 19:30 〜 21:30 <a href=https://openql.connpass.com/event/115421/>量子計算の原理をゲームで学ぶ</a>
+Repro株式会社 東京都渋谷区</li><li>02/20(水) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/119959/>新しい量子化学―電子構造の理論入門〈上〉輪講その９</a>
+MDR株式会社 東京都文京区</li><li>02/21(木) 17:00 〜 18:30 <a href=https://qnn.connpass.com/event/120288/>Quantum Computer in English</a>
+MDR株式会社 東京都文京区</li><li>02/21(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/110873>耐量子コンピュータの格子暗号を実装してみるぞ！</a>
+MDR株式会社 東京都文京区</li><li>02/21(木) 20:00 〜 22:00 <a href=https://liberal-arts-for-tech.connpass.com/event/120108/>量子コンピューティング勉強会（基礎編） #3</a>
+YS西神田ビル2F 東京都千代田区</li><li>02/22(金) 18:30 〜 20:30 <a href=https://inteface-meet-up.connpass.com/event/114142/>500号記念全国オフ会「量子コンピュータ＠京都」</a>
+MTRL KYOTO</li><li>02/24(日) 13:00 〜 16:00 <a href=https://qnn.connpass.com/event/119362/>中学生・高校生におすすめ★科学教室「量子コンピュータを使ってみよう」2/24</a>
+MDR株式会社 東京都文京区</li><li>02/25(月) 19:00 〜 21:00 <a href=https://openql.connpass.com/event/118035/>量子プログラミング言語Q#で量子アルゴリズムを学ぶ１（ハンズオン）</a>
+Microsoft 品川オフィス 東京都港区</li><li>02/28(木) 13:00 〜 16:00 <a href=https://qnn.connpass.com/event/121074/>続々・量子コンピュータでコーヒーブレンド最適化</a>
+MDR株式会社 東京都文京区</li><li>02/28(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/112416/>量子アニーリングボルツマンマシンで強化学習で迷路とか解く。ハンズオン。</a>
+MDR株式会社 東京都文京区</li></ul><h3 id=3月>3月</h3><ul><li>03/01(金) 13:00 〜 16:00 <a href=https://qnn.connpass.com/event/117736>量子コンピュータでミックスジュース</a>
+MDR株式会社 東京都文京区</li><li>03/04(月) 19:30 〜 21:30 <a href=https://openql.connpass.com/event/117674/>量子オートマトンと量子プログラミング・アーキテクチャ</a>
+Repro株式会社 東京都渋谷区</li><li>03/05(火) 20:00 〜 22:00 <a href=https://liberal-arts-for-tech.connpass.com/event/120222/>基礎から応用やトレンドまで学ぶ量子コンピューティング入門セミナー</a>
+YS西神田ビル2F 東京都千代田区</li><li>03/06(水) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/121619/>新しい量子化学―電子構造の理論入門〈上〉輪講その10</a>
+MDR株式会社 東京都文京区</li><li>03/07(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/112585/>量子コンピュータと量子アニーラでリコメンドエンジン作るです。＋ペガサスグラフ見る</a>
+MDR株式会社 東京都文京区</li><li>03/07(木) 20:00 〜 22:00 <a href=https://liberal-arts-for-tech.connpass.com/event/121770/>量子コンピューティング勉強会（基礎編） #4</a>
+YS西神田ビル2F 東京都千代田区</li><li>03/09(土) 15:00 〜 17:00 <a href=https://osaka-dtc.connpass.com/event/123596/>[輪読会]第7回 量子計算理論</a>
+大阪分散コミュニティー 大阪府大阪市福島区</li><li>03/11(月) 13:00 〜 18:00 <a href=https://www.ipa.go.jp/jinzai/mitou/2019/quantum_symposium.html>量子コンピューティング技術シンポジウム（京都会場）</a>
+リーガロイヤルホテル京都 京都府京都市</li><li>03/14(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/112586/>量子コンピュータと自動車業界</a>
+MDR株式会社 東京都文京区</li><li>03/15(金) 13:00 〜 16:00 <a href=https://qnn.connpass.com/event/117738>量子コンピュータでドレッシングや調味料作る</a>
+MDR株式会社 東京都文京区</li><li>03/18(月) 13:00 〜 18:00 <a href=https://connpass.com/event/120750/>量子コンピューティング技術シンポジウム（東京会場）</a>
+東京ミッドタウン 東京都港区</li><li>03/19(火) 18:30 〜 21:30 <a href=https://yahoo-osaka.connpass.com/event/120420/>Mix Leap Study #37 - 世界の最先端量子コンピュータ技術と機械学習</a>
+ヤフー株式会社 大阪グランフロントオフィス 大阪府大阪市</li><li>03/20(水) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/123416/>新しい量子化学―電子構造の理論入門〈上〉輪講その11</a>
+MDR株式会社 東京都文京区</li><li>03/21(木) 20:00 〜 22:00 <a href=https://liberal-arts-for-tech.connpass.com/event/123592/>量子コンピューティング勉強会（基礎編） #5</a>
+YS西神田ビル2F 東京都千代田区</li><li>03/28(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/112588/>とりあえず量子コンピュータでゲーム解く</a>
+MDR株式会社 東京都文京区</li><li>03/30(土) 13:00 〜 17:00 <a href=https://connpass.com/event/121960/>量子情報勉強会 |64></a>
+（株）ねこねこエンジニアリング 東京都千代田区</li></ul><h3 id=4月>4月</h3><ul><li>04/03(水) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/125014/>新しい量子化学―電子構造の理論入門〈上〉輪講その12</a>
+MDR株式会社 東京都文京区</li><li>04/04(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/117080/>衛星画像の地表面の物体認識や二値分類機</a>
+株式会社ナビタイムジャパン 東京都港区</li><li>04/06(土) 13:00 〜 17:00 <a href=https://connpass.com/event/126465/>量子情報勉強会 |65></a>
+（株）ねこねこエンジニアリング 東京都千代田</li><li>04/09(火) 20:00 〜 22:00 <a href=https://liberal-arts-for-tech.connpass.com/event/123267/>基礎から応用やトレンドまで学ぶ量子コンピューティング入門セミナー #2</a>
+YS西神田ビル2F 東京都千代田区</li><li>04/11(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/117081/>量子コンピュータで量子化学を全般的に見返す</a>
+MDR株式会社 東京都文京区</li><li>04/11(木) 20:00 〜 22:00<a href=https://liberal-arts-for-tech.connpass.com/event/125082/>量子コンピューティング勉強会（実践編） #1</a>
+水道橋駅周辺 千代田区</li><li>04/16(火) 19:00 〜 21:00 <a href=https://jisedai.connpass.com/event/124025/>【GMO】実践！ElasticsearchIBM社[Qiskit]で量子計算してみた</a>
+シナジーカフェ GMO Yours 東京都渋谷区</li><li>04/17(水) 17:00 〜 19:00<a href=https://qnn.connpass.com/event/126779/>新しい量子化学―電子構造の理論入門〈上〉輪講その13</a>
+MDR株式会社 東京都文京区</li><li>04/18(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/117446/>カナダのD-Wave Leapの使い方完全詳細&量子ゲートで量子アニーリングをプログラミングする</a>
+MDR株式会社 東京都文京区</li><li>04/18(木) 19:00 〜 21:00<a href=https://jisedai.connpass.com/event/125711/>【大阪】GMO次世代勉強会　Elasticsearchを実業務に適用してみた＆量子コンピュータ</a>
+シナジーカフェ GMO Yours 大阪府大阪市</li><li>04/22(月) 19:00 〜 21:00<a href=https://aitc-openlab.connpass.com/event/126630/>2019年4月期AITCオープンラボ「量子コンピューティング　シリーズ第1回~富士通様の取り組み~」</a>
+富士通株式会社 東京都港区</li><li>04/22(月) 19:15 〜 20:30 <a href=https://pt-quantum.connpass.com/event/126162/>「文系のための量子コンピュータ」「量子コンピュータはビジネスを変えるか？」</a>
+パソナグループ本社 東京都千代田区</li><li>04/22(月) 19:30 〜 21:30 <a href=https://openql.connpass.com/event/123938/>量子コンピューターについて語ろうLT大会＆懇親会</a>
+Repro株式会社 東京都渋谷区</li><li>04/25(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/117477>ゲームで強化学習（と組合せ最適化）がんばる会５</a>
+MDR株式会社 東京都文京区</li><li>04/25(木) 20:00 〜 22:00<a href=https://liberal-arts-for-tech.connpass.com/event/127726/>量子コンピューティング勉強会（実践編） #2</a>
+水道橋駅周辺 千代田区</li><li>04/26(金) 13:00 〜 20:00<a href=https://bmxug.connpass.com/event/120823/>IBM Cloud Community Summit 2019.04</a>
+日本アイ・ビー・エム株式会社 東京都中央区</li></ul><h3 id=5月>5月</h3><ul><li>05/08(水) 17:00 〜 19:00<a href=https://qnn.connpass.com/event/128419/>新しい量子化学―電子構造の理論入門〈上〉輪講その14</a>
+MDR株式会社 東京都文京区</li><li>05/09(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/117712>ダイヤモンドと量子コンピュータでつくる量子マネー</a>
+MDR株式会社 東京都文京区</li><li>05/09(木) 20:00 〜 22:00<a href=https://liberal-arts-for-tech.connpass.com/event/129474/>量子コンピューティング勉強会（実践編） #3</a>
+水道橋駅周辺 千代田区</li><li>05/11(土) 13:00 〜 17:00<a href=https://connpass.com/event/127965/>量子情報勉強会 |66></a>
+（株）ねこねこエンジニアリング 〒101-0032 東京都千代田区</li><li>05/16(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/117948/>制約充足問題で論理回路を逆算</a>
+MDR株式会社 東京都文京区</li><li>05/17(金) 20:00 〜 22:00<a href=https://liberal-arts-for-tech.connpass.com/event/127521/>基礎から応用やトレンドまで学ぶ量子コンピューティング入門セミナー #3</a>
+水道橋駅周辺 千代田区</li><li>05/20(月) 19:30 〜 21:30<a href=https://openql.connpass.com/event/123981/>量子ゲートの分解（Solovay-Kitaevの定理を学ぶ）</a>
+Repro株式会社 東京都渋谷区</li><li>05/21(火) 19:00 〜 21:00<a href=https://openql.connpass.com/event/128599/>Build 2019 local community event for Q# in Tokyo</a>
+日本マイクロソフト株式会社 品川オフィス 品川オフィス 30F Open Seminar Circle 東京都港区</li><li>05/22(水) 17:00 〜 19:00<a href=https://qnn.connpass.com/event/130650/>新しい量子化学―電子構造の理論入門〈上〉輪講その15</a>
+MDR株式会社 東京都文京区</li><li>05/23(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/119063/>量子GAN</a>
+MDR株式会社 東京都文京区</li><li>05/23(木) 18:30 〜 20:00<a href=https://qnn.connpass.com/event/119063/>量子GAN</a>
+株式会社ナビタイムジャパン 東京都港区</li><li>05/23(木) 19:00 〜 21:00<a href=https://aitc-openlab.connpass.com/event/127360/>2019年5月期AITCオープンラボ「量子コンピューティング　シリーズ第2回～IBM様の取り組み～</a>
+フクラシア浜松町A会議室 東京都港区</li><li>05/23(木) 20:00 〜 22:00<a href=https://liberal-arts-for-tech.connpass.com/event/130826/>量子コンピューティング勉強会（実践編） #4</a>
+水道橋駅周辺 千代田区</li><li>05/24(金) 18:30 〜 19:30<a href=https://automobile.connpass.com/event/128722/>量子コンピュータと自動運転、MaaS技術。</a>
+Blueqat Hub/ MDR株式会社 東京都文京区</li><li>05/27(月) 10:30 〜 11:30<a href=https://qnn.connpass.com/event/130432/>AIと量子コンピュータとウェブマーケティング【午前】</a>
+MDR株式会社 文京区</li><li>05/27(月) 14:00 〜 15:00<a href=https://qnn.connpass.com/event/130435/>AIと量子コンピュータとウェブマーケティング【午後】</a>
+Blueqat Hub/ MDR株式会社 東京都文京区</li><li>05/30(木) 16:00 〜 20:00 <a href=https://qnn.connpass.com/event/121940/>Blueqat Summit Tokyo 2019</a>
+株式会社ナビタイムジャパン 東京都港区</li></ul><h3 id=6月>6月</h3><ul><li>06/03(月) 19:00 〜 21:00<a href=https://aifashion.connpass.com/event/133058/>AI勉強会｜料理と深層学習、最適化、量子コンピュータ</a>
+ABC Cooking Studio 東京都千代田区</li><li>06/05(水) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/132517/>新しい量子化学―電子構造の理論入門〈上〉輪講その16</a>
+MDR株式会社 東京都文京区</li><li>06/06(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/127117/>量子計算を使った機械学習モデルによるパターン認識</a>
+株式会社ナビタイムジャパン 東京都港区</li><li>06/06(木) 20:00 〜 22:00 <a href=https://liberal-arts-for-tech.connpass.com/event/132794/>量子コンピューティング勉強会（実践編） #5</a>
+水道橋駅周辺 千代田区</li><li>06/07(金) 10:30 〜 11:30 <a href=https://qnn.connpass.com/event/130436/>AIと量子コンピュータとウェブマーケティング【6/7午前】</a>
+Blueqat Hub/ MDR株式会社 東京都文京区</li><li>06/07(金) 14:00 〜 15:00 <a href=https://qnn.connpass.com/event/130437/>AIと量子コンピュータとウェブマーケティング【6/7午後】</a>
+Blueqat Hub/ MDR株式会社 東京都文京区</li><li>06/08(土) 13:00 〜 17:00 <a href=https://connpass.com/event/131039/>量子情報勉強会 |67></a>
+（株）ねこねこエンジニアリング 〒101-0032 東京都千代田区</li><li>06/13(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/127118/>【オンライン配信】量子ライフゲーム</a>
+Blueqat Hub/ MDR株式会社 東京都文京区</li><li>06/14(金) 18:00 〜 20:00 <a href=https://connpass.com/event/124354/>大阪大学微生物病研究所 × 阪医Python会 合同ワークショップ</a>
+大阪大学銀杏会館 大阪府吹田市</li><li>06/18(火) 10:30 〜 11:30 <a href=https://qnn.connpass.com/event/135379/>量子コンピュータAIとウェブマーケティング【6/18午前】</a>
+MDR株式会社 文京区</li><li>06/18(火) 14:00 〜 15:00 <a href=https://qnn.connpass.com/event/135380/>量子コンピュータAIとウェブマーケティング【6/18午後】</a>
+MDR株式会社 文京区</li><li>06/19(水) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/134386/>新しい量子化学―電子構造の理論入門〈上〉輪講その17</a>
+MDR株式会社 東京都文京区</li><li>06/20(木) 10:30 〜 11:30 <a href=https://qnn.connpass.com/event/135381/>量子コンピュータAIとウェブマーケティング【6/20午前】</a>
+MDR株式会社 文京区</li><li>06/20(木) 14:00 〜 15:00 <a href=https://qnn.connpass.com/event/135382/>量子コンピュータAIとウェブマーケティング【6/20午後】</a>
+MDR株式会社 文京区</li><li>06/20(木) 18:30 〜 20:00 <a href=https://qnn.connpass.com/event/127963/>【オンライン配信】金融リスク計算とアドテクと量子コンピュータ</a>
+株式会社ナビタイムジャパン 東京都港区</li><li>06/24(月) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/134305/>新しい量子化学―電子構造の理論入門〈上〉二周目 輪講その1</a>
+MDR株式会社 東京都文京区</li><li>06/24(月) 19:30 〜 21:30 <a href=https://openql.connpass.com/event/134388/>量子通信の基礎とBB84プロトコル</a>
+Repro株式会社 東京都渋谷区</li><li>06/27(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/128544/>D-Waveの生成モデル</a>
+Blueqat Hub/ MDR株式会社 東京都文京区</li></ul><h3 id=7月>7月</h3><ul><li>07/03(水) 17:00 〜 19:00 <a href=https://qnn.connpass.com/event/136186/>新しい量子化学―電子構造の理論入門〈上〉輪講その18</a>
+MDR株式会社 東京都文京区</li><li>07/03(水) 19:00 〜 21:00 <a href=https://aitc-openlab.connpass.com/event/133689/>2019年7月期AITCオープンラボ「量子コンピューティング　シリーズ第3回～日立様の取り組み紹介～</a>
+日立製作所　品川セミナールーム 東京都港区</li><li>07/04(木) 18:30 〜 20:30 <a href=https://openql.connpass.com/event/131222/>最適化問題とPyQUBOを学ぶ</a>
+DeNAセミナールーム 東京都渋谷区</li><li>07/04(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/135646/>shorのアルゴリズムの現状</a>
+MDR株式会社 文京区</li><li>07/05(金) 18:30 〜 20:30 <a href=https://j-ij.connpass.com/event/136986/>OpenJijを使った量子アニーリング勉強会</a>
+テラスカイ東京本社 東京都中央区</li><li>07/05(金) 19:00 〜 21:30 <a href=https://openql.connpass.com/event/134392/>Qiskit 入門(初学者向け量子プログラミング・ハンズオン)</a>
+Repro株式会社 東京都渋谷区</li><li>07/06(土) 13:00 〜 17:00 <a href=https://connpass.com/event/135704/>量子情報勉強会 |68></a>
+（株）ねこねこエンジニアリング 〒101-0032 東京都千代田区</li><li>07/08(月) 17:30 〜 19:30 <a href=https://qnn.connpass.com/event/137018/>新しい量子化学―電子構造の理論入門〈上〉二周目 輪講その２</a>
+MDR株式会社 東京都文京区</li><li>07/11(木) 18:30 〜 19:30 <a href=https://qnn.connpass.com/event/136992/>量子流体計算</a>
+MDR株式会社 文京区</li><li>07/19(金) 20:00 〜 22:00 <a href=https://liberal-arts-for-tech.connpass.com/event/135613/>基礎から応用やトレンドまで学ぶ量子コンピューティング入門セミナー【Shorのアルゴリズム編】</a>
+水道橋駅周辺 千代田区</li><li>07/22(月) 19:30 〜 21:30 <a href=https://openql.connpass.com/event/134405/>量子コンピューターによる量子化学計算（基礎）</a>
+Repro株式会社 東京都渋谷区</li></ul><h3 id=8月>8月</h3><ul><li><p>08/04(日) 13:00 〜 18:00 <a href=https://qnn.connpass.com/event/134383/>量子化学ハンズオン</a></p></li><li><p>08/06(火) 19:00 〜 21:00 <a href=https://openql.connpass.com/event/135665/>量子プログラミング言語Q#で量子アルゴリズムを学ぶ２（ハンズオン）</a>
+日本マイクロソフト株式会社 品川オフィス 30F VIP Board Room 東京都港区</p></li><li><p>08/07(水) 17:55 〜 21:00 <a href=https://qri.connpass.com/event/136126/>第二回　QCX</a>
+Google Japan 六本木ヒルズ 森タワー</p></li><li><p>08/26(月) 19:30 〜 21:30 <a href=https://openql.connpass.com/event/132321/>量子コンピューターについて語ろうLT大会＆懇親会（2019年8月）</a>
+Repro株式会社 東京都渋谷区</p></li></ul><div class=chevrons><div id=navigation><a class="nav nav-prev" href=/domestic-study/ title=国内勉強会><i class="fa fa-chevron-left"></i><label>国内勉強会</label></a>
+<a class="nav nav-next" href=/domestic-study/2018/ title=勉強会(2018) style=margin-right:0><label>勉強会(2018)</label><i class="fa fa-chevron-right"></i></a></div></div></section></article><footer><div class=footline><div class=date><i class='fa fa-calendar'></i> 最終更新 03/03/2019</div><div class=github-link><a href=https://github.com/ikkoham/qinfoinfo/edit/master/content/domestic-study/2019.md target=blank><i class="fa fa-code-fork"></i>
+このページを編集する</a></div></div><div></div></footer><script src=/js/clipboard.min.js></script><link href=/css/featherlight.min.css rel=stylesheet><script src=/js/featherlight.min.js></script><script src=/theme-flex/script.js></script></body></html>
