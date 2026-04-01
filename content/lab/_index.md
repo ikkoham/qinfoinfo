@@ -196,7 +196,7 @@ weight = 5
 - 研究分野: 量子計算理論
 - HP: https://www.yukawa.kyoto-u.ac.jp/contents/labs/quantum_information
 
-### 理学研究科 (藤井 啓祐)
+### 大学院情報学研究科 通信情報システムコース / 工学部情報学科 計算機科学コース (藤井 啓祐)
 - 研究分野: 量子計算理論
 - HP: http://quantphys.org/wp/qinfp/
 
