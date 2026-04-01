@@ -87,6 +87,10 @@ weight = 5
 - 研究分野: 光ファイバー共振器
 - HP: http://www.qo.phys.waseda.ac.jp/
 
+### 教育・総合科学学術院 (谷 誠一郎)
+- 研究分野: 量子情報理論
+- HP: https://stani.w.waseda.jp
+
 ### 基幹理工学研究科 情報理工・情報通信専攻 (戸川 望)
 - 研究分野: 量子アニーリング
 - HP: https://www.togawa.cs.waseda.ac.jp
@@ -313,10 +317,6 @@ weight = 5
 ### 国立情報学研究所 情報学プリンシプル研究系 (松本 啓史)
 - 研究分野: 量子情報
 - HP: https://www.nii.ac.jp/faculty/informatics/matsumoto_keiji/
-
-### NTTコミュニケーション科学基礎研究所 メディア情報研究部情報基礎理論研究グループ (谷 誠一郎)
-- 研究分野: 量子情報理論
-- HP: http://www.kecl.ntt.co.jp/media/computing_theory-j.html
 
 ### NTTセキュアプラットフォーム研究所
 - 研究分野: 量子情報、量子光学、誤り耐性量子計算
