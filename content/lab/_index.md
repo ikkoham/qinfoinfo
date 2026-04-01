@@ -248,13 +248,25 @@ weight = 5
 
 ## 沖縄科学技術大学院大学
 
-### 量子アーキテクチャユニット (根本 香絵)
-- 研究分野: 量子情報
-- HP: https://www.oist.jp/ja/research/research-units/qist
+### ネットワーク型量子デバイスユニット (ダビド・エルコウス)
+- 研究分野: 量子ネットワークとその応用の原理実証、誤り訂正、暗号化プロトコル
+- HP: https://www.oist.jp/ja/research/research-units/netq
 
 ### 量子ダイナミクスユニット (デニス・コンスタンチノフ)
 - 研究分野: 光磁気輸送およびスピン共鳴による、平衡状態から大きく離れた極低温複雑量子系の研究
 - HP: https://groups.oist.jp/ja/qdu
+
+### 量子情報物理実験ユニット (高橋 優樹)
+- 研究分野: イオントラップを用いた高度な量子系の制御・量子インターフェース
+- HP: https://www.oist.jp/ja/research/research-units/equip
+
+### 量子アーキテクチャユニット (根本 香絵)
+- 研究分野: 量子情報
+- HP: https://www.oist.jp/ja/research/research-units/qist
+
+### 量子工学・デザインユニット (William J. Munro)
+- 研究分野: 乱数と非線形現象を含む、量子力学の基本的側面, 量子インターネット, 量子計算
+- HP: https://www.oist.jp/ja/research/research-units/qed
 
 
 
@@ -275,10 +287,6 @@ weight = 5
 ### 国立研究開発法人 情報通信研究機構 未来ICT研究所 量子ICT先端開発センター(武岡 正裕)
 - 研究分野: 量子情報理論, 量子通信, 計測・標準技術, 固体化デバイス, 捕獲イオン系
 - HP: http://www.nict.go.jp/quantum/
-
-### NTT物性科学研究所 理論量子物理研究グループ (William J. Munro)
-- 研究分野: 乱数と非線形現象を含む、量子力学の基本的側面, 量子インターネット, 量子コンピュータと量子シミュレーション, ハイブリッド量子系
-- HP: http://www.brl.ntt.co.jp/group/ryouron-g/
 
 ### NTTコミュニケーション科学基礎研究所 メディア情報研究部情報基礎理論研究グループ (谷 誠一郎)
 - 研究分野: 量子情報理論
