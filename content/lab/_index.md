@@ -125,6 +125,10 @@ weight = 5
 - 研究分野：量子制御
 - HP: https://www.yamamoto.appi.keio.ac.jp/index.html
 
+### 大学院メディアデザイン研究科 (永山 翔太)
+- 研究分野: 量子インターネット・量子通信ネットワーク
+- HP: https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama
+
 ### 先進的量子アーキテクチャ研究グループ (Rodney Van Meter)
 - 研究分野: 量子ネットワーク・量子アーキテクチャ
 - HP: http://aqua.sfc.wide.ad.jp/
@@ -228,6 +232,12 @@ weight = 5
 - 研究分野: 量子計算理論
 - HP: http://quantphys.org/wp/qinfp/
 
+## 京都工芸繊維大学
+
+### 工芸科学研究科 電子システム工学課程 小林研究室 (小林 和淑)
+- 研究分野: 量子コンピュータ制御・誤り訂正用集積回路
+- HP: http://www-vlsi.es.kit.ac.jp
+
 ## 立命館大学
 
 ### 次世代コンピュータ研究室 (山下茂)
@@ -267,6 +277,10 @@ weight = 5
 ### 基礎工学研究科 量子情報・量子光学 山本研究室 (山本 俊)
 - 研究分野: 量子暗号通信、量子コンピューター、エンタングルメント操作
 - HP: http://qi.mp.es.osaka-u.ac.jp
+
+### 基礎工学研究科 システム創成専攻 (御手洗 光祐)
+- 研究分野: 量子アルゴリズム・量子機械学習・量子シミュレーション
+- HP: https://qiqb.otri.osaka-u.ac.jp/
 
 ## 神戸大学
 
@@ -310,6 +324,10 @@ weight = 5
 - 研究分野: 量子コンピュータ
 - HP: http://www.amo.t.u-tokyo.ac.jp/
 
+### 理化学研究所 量子コンピュータ研究センター 半導体量子情報デバイス研究チーム (樽茶 清悟)
+- 研究分野: シリコン量子ドット・半導体量子ビット
+- HP: https://www.riken.jp/research/labs/rqc/semicond_quantum_inf_dev/
+
 ### 産業技術総合研究所 ナノエレクトロニクス研究部門 エレクトロインフォマティクスグループ (川畑 史郎)
 - 研究分野: 超伝導量子コンピュータ・量子アニーリング
 - https://unit.aist.go.jp/neri/ja/teams/04_ele-info/ja/
@@ -333,3 +351,7 @@ weight = 5
 ### 三菱電機 先端技術総合研究所
 - 研究分野: 量子デバイス、量子センシング
 - HP: https://www.mitsubishielectric.co.jp/corporate/randd/laboratory/advanced_technology/index.html
+
+### 日立製作所 研究開発グループ (水野 弘之)
+- 研究分野: 大規模集積シリコン量子コンピュータ
+- HP: https://ms6siliconquantum.jp/
