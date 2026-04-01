@@ -145,7 +145,7 @@ weight = 5
 
 ### 情報理工学院 (中田 芳史)
 - 研究分野: 量子情報・量子計算・量子誤り訂正
-- HP: https://www.li.comp.isct.ac.jp/admission/2026.html
+- HP: TBA
 
 ## 電気通信大学
 
@@ -293,6 +293,12 @@ weight = 5
 ### 基礎工学研究科 システム創成専攻 (御手洗 光祐)
 - 研究分野: 量子アルゴリズム・量子機械学習・量子シミュレーション
 - HP: https://mitarai.qc.ee.es.osaka-u.ac.jp
+
+## 九州大学
+
+### 大学院システム情報科学研究院 量子情報研究室 (田島 裕康)
+- 研究分野: 量子情報理論・量子熱力学・非平衡物理学
+- HP: https://tajima-qi.lab.kyushu-u.ac.jp/
 
 ## 神戸大学
 
