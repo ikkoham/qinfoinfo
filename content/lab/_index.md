@@ -325,3 +325,11 @@ weight = 5
 ### 分子科学研究所　大森研究室（大森賢治）
 - 研究分野: 量子コンピュータ・量子シミュレーション
 - HP: https://groups.ims.ac.jp/organization/ohmori_g/
+
+### 三菱電機 情報技術総合研究所
+- 研究分野: 量子コンピュータ、量子セキュリティ
+- HP: https://www.mitsubishielectric.co.jp/corporate/randd/laboratory/information_technology/index.html
+
+### 三菱電機 先端技術総合研究所
+- 研究分野: 量子デバイス、量子センシング
+- HP: https://www.mitsubishielectric.co.jp/corporate/randd/laboratory/advanced_technology/index.html
