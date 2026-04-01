@@ -75,7 +75,7 @@ weight = 5
 
 ### 量子情報研究室 村尾研 (村尾 美緒)
 - 研究分野: 量子情報
-- HP: https://www.eve.phys.s.u-tokyo.ac.jp/indexj.htm
+- HP: https://www.eve.phys.s.u-tokyo.ac.jp/
 
 ### 大学院情報理工学系研究科 山崎研究室 (山崎 隼太)
 - 研究分野: 量子情報理論・量子熱力学
