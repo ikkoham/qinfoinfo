@@ -29,6 +29,10 @@ weight = 5
 - 研究分野: 量子アニーリング
 - HP: http://www.smapip.is.tohoku.ac.jp/member-j.html
 
+### 大学院工学研究科 応用物理学専攻 松枝研究室 (松枝 宏明)
+- 研究分野: 量子情報物理学・量子もつれ・テンソルネットワーク
+- HP: https://web.tohoku.ac.jp/matsueda/
+
 ### 大学院工学研究科 応用物理学専攻 低温・超伝導物理学分野 山下研究室 (山下 太郎)
 - 研究分野: 低温・超伝導物理学、超伝導量子デバイス
 - HP: https://super.apph.tohoku.ac.jp/
@@ -139,6 +143,10 @@ weight = 5
 - 研究分野: 量子アニーリング
 - HP: http://www.stat.phys.titech.ac.jp/nishimori/index-j.html
 
+### 情報理工学院 (中田 芳史)
+- 研究分野: 量子情報・量子計算・量子誤り訂正
+- HP: https://www.li.comp.isct.ac.jp/admission/2026.html
+
 ## 電気通信大学
 
 ### 情報理工学研究科 情報・ネットワーク工学専攻 小川研究室 (小川 朋宏)
@@ -165,6 +173,10 @@ weight = 5
 ### 理学部第一部 物理学科 (蔡 兆申)
 - 超伝導量子ビット
 - HP: https://www.rs.tus.ac.jp/tsai/
+
+### 理学部第一部 物理学科 吉原研究室 (吉原 文樹)
+- 研究分野: 超伝導量子回路・量子コンピュータ
+- HP: https://www.rs.tus.ac.jp/fylab/
 
 ## 芝浦工業大学
 
@@ -280,7 +292,7 @@ weight = 5
 
 ### 基礎工学研究科 システム創成専攻 (御手洗 光祐)
 - 研究分野: 量子アルゴリズム・量子機械学習・量子シミュレーション
-- HP: https://qiqb.otri.osaka-u.ac.jp/
+- HP: https://mitarai.qc.ee.es.osaka-u.ac.jp
 
 ## 神戸大学
 
@@ -326,11 +338,15 @@ weight = 5
 
 ### 理化学研究所 量子コンピュータ研究センター 半導体量子情報デバイス研究チーム (樽茶 清悟)
 - 研究分野: シリコン量子ドット・半導体量子ビット
-- HP: https://www.riken.jp/research/labs/rqc/semicond_quantum_inf_dev/
+- HP: http://qfsrg.riken.jp
 
 ### 産業技術総合研究所 ナノエレクトロニクス研究部門 エレクトロインフォマティクスグループ (川畑 史郎)
 - 研究分野: 超伝導量子コンピュータ・量子アニーリング
 - https://unit.aist.go.jp/neri/ja/teams/04_ele-info/ja/
+
+### 国立情報学研究所 情報学プリンシプル研究系 (添田 彬仁)
+- 研究分野: 量子情報理論・高階量子情報処理
+- HP: https://www.nii.ac.jp/faculty/informatics/soeda_akihito/
 
 ### 国立情報学研究所 情報学プリンシプル研究系 (松本 啓史)
 - 研究分野: 量子情報
@@ -352,6 +368,6 @@ weight = 5
 - 研究分野: 量子デバイス、量子センシング
 - HP: https://www.mitsubishielectric.co.jp/corporate/randd/laboratory/advanced_technology/index.html
 
-### 日立製作所 研究開発グループ (水野 弘之)
+### 日立製作所 量子コンピューティングプロジェクト (水野 弘之)
 - 研究分野: 大規模集積シリコン量子コンピュータ
-- HP: https://ms6siliconquantum.jp/
+- HP: https://www.hitachi.co.jp/rd/about/leaders_td/hiroyuki_mizuno/index.html
