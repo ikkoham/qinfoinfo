@@ -149,11 +149,11 @@ weight = 5
 
 ### 工学院情報通信系 情報通信コース 笠井研究室 (笠井 健太)
 - 研究分野: 量子誤り訂正・量子LDPC符号・符号理論
-- HP: https://kenta-kasai.github.io/
+- HP: https://kasaikenta.github.io
 
 ### 理学院物理学系 向山研究室 (向山 敬)
 - 研究分野: 冷却原子・イオントラップを用いた量子技術の開発
-- HP: https://www.titech.ac.jp/education/graduate/physics/research-groups/mukaiyama
+- HP: http://www.mukaiyama.phys.sci.titech.ac.jp/index.html
 
 ## 電気通信大学
 
@@ -210,7 +210,7 @@ weight = 5
 ## 中央大学
 ### 理工学部 電気電子情報通信工学科 松崎研究室 (松崎 雄一郎)
 - 研究分野: 量子コンピュータ・量子情報処理論
-- HP: https://www.chuo-u.ac.jp/academics/faculties/science/departments/elec_elec/lab/lab06/
+- HP: https://sites.google.com/view/matuzakilabqu/top/
 
 ## 横浜国立大学
 ### 大学院工学研究院 物理情報工学専攻 (小坂 英男)
@@ -393,4 +393,4 @@ weight = 5
 
 ### メルカリR4D (Mercari R4D)
 - 研究分野: 量子コンピューティング・量子情報技術の応用
-- HP: https://mercari.com/about/r4d/quantum/
+- HP: https://r4d.mercari.com/quantum/
