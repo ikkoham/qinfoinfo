@@ -147,6 +147,14 @@ weight = 5
 - 研究分野: 量子情報・量子計算・量子誤り訂正
 - HP: TBA
 
+### 工学院情報通信系 情報通信コース 笠井研究室 (笠井 健太)
+- 研究分野: 量子誤り訂正・量子LDPC符号・符号理論
+- HP: https://kenta-kasai.github.io/
+
+### 理学院物理学系 向山研究室 (向山 敬)
+- 研究分野: 冷却原子・イオントラップを用いた量子技術の開発
+- HP: https://www.titech.ac.jp/education/graduate/physics/research-groups/mukaiyama
+
 ## 電気通信大学
 
 ### 情報理工学研究科 情報・ネットワーク工学専攻 小川研究室 (小川 朋宏)
@@ -198,6 +206,11 @@ weight = 5
 ### 理工学部機能創造理工学科 物理学領域 (江馬 一弘)
 - 研究分野: 量子光学
 - HP: http://soliton.sn.sophia.ac.jp/EmaLabWebsite/top.html
+
+## 中央大学
+### 理工学部 電気電子情報通信工学科 松崎研究室 (松崎 雄一郎)
+- 研究分野: 量子コンピュータ・量子情報処理論
+- HP: https://www.chuo-u.ac.jp/academics/faculties/science/departments/elec_elec/lab/lab06/
 
 ## 横浜国立大学
 ### 大学院工学研究院 物理情報工学専攻 (小坂 英男)
@@ -281,10 +294,6 @@ weight = 5
 ### 理学研究科 数学専攻 (藤原 彰夫)
 - 研究分野: 量子情報理論
 - HP: http://www4.math.sci.osaka-u.ac.jp/~fujiwara/
-
-### 基礎工学研究科 電子光科学領域 (向山 敬)
-- 研究分野: イオントラップを用いた高精度ジャイロスコープの開発
-- HP: http://www.qe.ee.es.osaka-u.ac.jp
 
 ### 基礎工学研究科 量子情報・量子光学 山本研究室 (山本 俊)
 - 研究分野: 量子暗号通信、量子コンピューター、エンタングルメント操作
@@ -381,3 +390,7 @@ weight = 5
 ### 日立製作所 量子コンピューティングプロジェクト (水野 弘之)
 - 研究分野: 大規模集積シリコン量子コンピュータ
 - HP: https://www.hitachi.co.jp/rd/about/leaders_td/hiroyuki_mizuno/index.html
+
+### メルカリR4D (Mercari R4D)
+- 研究分野: 量子コンピューティング・量子情報技術の応用
+- HP: https://mercari.com/about/r4d/quantum/
