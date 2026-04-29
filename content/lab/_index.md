@@ -25,6 +25,10 @@ weight = 5
 
 ## 東北大学
 
+### 情報科学研究科 木村研究室 (木村 元)
+- 研究分野: 量子力学基礎論・開放量子系・量子情報科学
+- HP: https://www.math.is.tohoku.ac.jp/~quantum/index.html
+
 ### 情報科学研究科 応用情報科学専攻 応用情報技術論講座 物理フラクチュオマティクス論分野 大関研究室 (大関 真之)
 - 研究分野: 量子アニーリング
 - HP: http://www.smapip.is.tohoku.ac.jp/member-j.html
