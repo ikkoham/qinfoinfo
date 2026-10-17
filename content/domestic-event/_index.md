@@ -14,6 +14,8 @@ aliases = ["/domestic-conference/", "/domestic-study/"]
 - 3/07(日) 〜 3/09(火): **[情報処理学会 第20回量子ソフトウェア研究発表会 (SIGQS)](https://sigqs.ipsj.or.jp/)**（北海道大学 / オンライン）
 
 ### 2026年
+- 12/17(木) 〜 12/18(金): **[量子誤り訂正理論の表現論的アプローチと量子人材育成](https://joint.imi.kyushu-u.ac.jp/post-20934/)**（九州大学 伊都キャンパス / オンライン）
+- 12/14(月) 〜 12/15(火): **[QI2026 Satellite Workshop on Frontiers of Practical Quantum Computing (FPQC)](https://qi2026satellite.github.io/)**（大阪大学 豊中キャンパス 南部陽一郎ホール）
 - 12/14(月): **第3回 G-QuATセミナー「Ivo P. Degiovanni博士によるセミナー」**（産総研 つくばキャンパス）
 - 12/08(火) 〜 12/11(金): **[Quantum Innovation 2026](https://quantum-innovation.riken.jp/)**（名古屋・ウインクあいち）
 - 11/21(土): **[G-QuAT特別公開](https://unit.aist.go.jp/g-quat/ja/events/2026/20261121_G-QuAT_openhouse.html)**（産総研 つくばセンター）
