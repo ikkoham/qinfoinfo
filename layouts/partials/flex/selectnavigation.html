@@ -1,4 +1,7 @@
 {{- $currentNode := . }}
+{{- if not .Site.Params.disableHomeIcon}}
+<option value="{{"/" | relLangURL}}" {{if $currentNode.IsHome}} selected{{end}}>{{ or .Site.Params.homeName "ホーム" }}</option>
+{{- end}}
 {{- if eq .Site.Params.ordersectionsby "title"}}
   {{- range .Site.Home.Sections.ByTitle}}
   {{- template "menu-nav" dict "sect" . "currentnode" $currentNode "level" 1}}
