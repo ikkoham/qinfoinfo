@@ -47,6 +47,26 @@ weight = 5
 - 研究分野: 耐量子計算機暗号・量子計算・情報セキュリティ
 - HP: https://www.crisec.cs.tsukuba.ac.jp/
 
+### 計算科学研究センター 量子物性研究部門 (小泉 裕康)
+- 研究分野: スピン渦誘起ループ電流量子ビット・高温超伝導
+- HP: https://www.ims.tsukuba.ac.jp/~koizumi/
+
+### システム情報系 物理情報システム研究室 (鹿野 豊)
+- 研究分野: 量子情報科学・量子測定・量子センサ・量子ウォーク
+- HP: https://sites.google.com/view/pis-univ-tsukuba/
+
+### システム情報系 量子計算理論研究室 (高橋 康博)
+- 研究分野: 量子計算理論・量子アルゴリズム・計算量理論
+- HP: https://www.cs.tsukuba.ac.jp/~ya.takahashi/qct-lab/
+
+### 計算科学研究センター 高性能計算システム研究部門 (辻 美和子)
+- 研究分野: 量子-古典ハイブリッド計算・量子HPC連携
+- HP: https://www.hpcs.cs.tsukuba.ac.jp/
+
+### 数理物質系 物理学域 量子物性理論研究室 (初貝 安弘)
+- 研究分野: トポロジカル量子物性・バルク-エッジ対応・ベリー位相・非エルミート量子系
+- HP: https://patricia.ph.tsukuba.ac.jp/
+
 ## 東京大学
 
 ### 工学部物理工学科 大学院工学系研究科物理工学専攻 香取研 (香取 秀俊)
