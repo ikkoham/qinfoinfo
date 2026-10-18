@@ -51,7 +51,7 @@ A laboratory or research group is eligible for inclusion if its primary research
 ### 2.1 University & Institution Ordering: Geographically North to South
 Universities and institutions must be ordered **geographically from North to South** across Japan:
 1. **Hokkaido & Tohoku**: e.g., Hokkaido Univ. → Tohoku Univ.
-2. **Kanto**: e.g., Univ. of Tsukuba → Univ. of Tokyo → Ochanomizu Univ. → Japan Women's Univ. → Science Tokyo (Tokyo Tech) → UEC → TUAT → Tokyo Univ. of Science → Shibaura Tech → ICU → Gakushuin → Chuo → Meiji Gakuin → Waseda → Keio → Tamagawa → YNU, etc.
+2. **Kanto**: e.g., Univ. of Tsukuba → Univ. of Tokyo → Ochanomizu Univ. → Japan Women's Univ. → Science Tokyo (Tokyo Tech) → UEC → TUAT → Tokyo Univ. of Science → Shibaura Tech → ICU → Gakushuin → Chuo → Meiji Gakuin → Hosei → Waseda → Keio → Tamagawa → YNU, etc.
 3. **Chubu / Hokuriku / Tokai**: e.g., JAIST → Univ. of Toyama → Nagoya Univ.
 4. **Kansai**: e.g., Kyoto Univ. → KIT → Ritsumeikan Univ. → Osaka Univ. → Kobe Univ.
 5. **Chugoku & Shikoku**: e.g., Hiroshima Univ.

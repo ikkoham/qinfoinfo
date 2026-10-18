@@ -269,6 +269,13 @@ weight = 5
 - HP: https://www.meijigakuin.ac.jp/academics/faculty/mathematical_informatics/teacher/imai_hiroshi.html
 
 
+## 法政大学
+
+### 情報科学部 ディジタルメディア学科 量子コンピュータ研究室 (川畑 史郎)
+- 研究分野: 超伝導量子回路・量子アニーリング・量子アルゴリズム・誤り耐性量子計算 (FTQC)
+- HP: https://cis.hosei.ac.jp/depts/dm/kawabata/
+
+
 ## 早稲田大学
 
 ### 先進理工学部 応用物理学科 青木研究室 (青木 隆朗)
@@ -537,7 +544,7 @@ weight = 5
 - 研究分野: 光格子時計・量子計測・相対論的測地学
 - HP: https://www.riken.jp/research/labs/rap/spacetime_eng/index.html
 
-### 産業技術総合研究所 量子・AI融合技術ビジネス開発グローバル研究環境 (川畑 史郎, 門脇 正史)
+### 産業技術総合研究所 量子・AI融合技術ビジネス開発グローバル研究センター (益 一哉, 門脇 正史)
 - 研究分野: 超伝導量子コンピュータ・量子アニーリング・量子デバイス評価・量子古典ハイブリッド基盤 (ABCI-Q)
 - HP: https://unit.aist.go.jp/g-quat/
 
@@ -571,7 +578,7 @@ weight = 5
 
 ### NTTコンピュータ＆データサイエンス研究所
 - 研究分野: 量子情報理論・耐量子暗号・誤り耐性量子計算
-- HP: https://www.rd.ntt/cdslabs/
+- HP: https://www.rd.ntt/cds/
 
 ### 日本電気株式会社 量子コンピューティング統括部
 - 研究分野: 超伝導量子アニーリング・超伝導パラメトロン素子・量子暗号
@@ -583,11 +590,11 @@ weight = 5
 
 ### 富士通株式会社 量子研究所
 - 研究分野: 超伝導量子コンピュータ・ダイヤモンドスピン・量子シミュレータ・量子古典ハイブリッド
-- HP: https://www.fujitsu.com/jp/technology/research/quantum/
+- HP: https://global.fujitsu/ja-JP/technology/research/quantum
 
 ### 日本IBM 東京基礎研究所 (IBM Research - Tokyo)
 - 研究分野: 超伝導量子コンピュータ・量子ソフトウェア (Qiskit)・量子アルゴリズム
-- HP: https://www.ibm.com/che-en/research/japan
+- HP: https://research.ibm.com/jp-ja/labs/japan
 
 ### 日立製作所 研究開発グループ 量子コンピューティングプロジェクト (水野 弘之)
 - 研究分野: 大規模集積シリコン量子コンピュータ
