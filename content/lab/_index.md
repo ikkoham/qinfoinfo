@@ -331,7 +331,7 @@ weight = 5
 
 ### 理工学部物理情報工学科 山本研究室 (山本 直樹)
 - 研究分野: 量子制御理論・量子機械学習・量子アルゴリズム
-- HP: https://www.yamamoto.appi.keio.ac.jp/index.html
+- HP: https://www.yamamoto.appi.keio.ac.jp
 
 ### 理工学部 物理情報工学科 渡辺研究室 (渡辺 宙志)
 - 研究分野: 量子古典ハイブリッド計算・量子シミュレーション・テンソルネットワーク
